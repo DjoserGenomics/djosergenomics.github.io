@@ -9,6 +9,16 @@ google_analytics: "G-QN6Q5EFQGR"
 include: ["_pages"]
 permalink: /:title/
 
+authors:
+  Nourelden:
+    name: Nourelden Rihan
+    display_name: Nourelden Rihan
+    avatar: assets/images/users/NoureldenRihan.jpg
+    email: noureldenrihan@gmail.com
+    web: https://nourelden-rihan.web.app
+    social: https://bsky.app/profile/noureldenrihan.bsky.social
+    description: "Creator of Djoser Genomics"
+
 # Plugins
 plugins:
   - jekyll-paginate
