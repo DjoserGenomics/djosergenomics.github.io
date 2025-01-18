@@ -1,2 +1,3 @@
-# djosergenomics.github.io
-Djoser Genomics Website Repository
+# Djoser Genomics
+
+Djoser Genomics Website
