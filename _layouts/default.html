@@ -7,14 +7,32 @@
       src="https://www.googletagmanager.com/gtag/js?id=G-QN6Q5EFQGR"
     ></script>
     <script>
+      // Define dataLayer and the gtag function.
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
 
+      // Set default consent for all regions
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        analytics_storage: "denied",
+      });
+
+      // Initialize gtag
+      gtag("js", new Date());
       gtag("config", "G-QN6Q5EFQGR");
     </script>
+
+    <!-- Start cookieyes banner -->
+    <script
+      id="cookieyes"
+      type="text/javascript"
+      src="https://cdn-cookieyes.com/client_data/76abfba1b6f1bd3bd8f66480/script.js"
+    ></script>
+    <!-- End cookieyes banner -->
 
     <meta charset="utf-8" />
     <meta
