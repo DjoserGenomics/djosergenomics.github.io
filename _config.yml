@@ -5,7 +5,7 @@ description: "Djoser Genomics - Bioinformatics Portfolio"
 logo: "assets/images/logo.png"
 favicon: "assets/images/logo.png"
 baseurl: ""
-google_analytics: "UA-46278016-1"
+google_analytics: "G-QN6Q5EFQGR"
 include: ["_pages"]
 permalink: /:title/
 
@@ -41,10 +41,8 @@ kramdown:
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
+lazyimages: "enabled"
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+exclude: [changelog.md, README.md, Gemfile, Gemfile.lock]

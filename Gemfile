@@ -17,4 +17,7 @@ group :jekyll_plugins do
     gem 'jekyll-archives'
     gem 'kramdown'
     gem 'rouge'
+    gem "csv"
+    gem "logger"
+    gem "base64"
 end
