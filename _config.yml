@@ -4,7 +4,7 @@ title: "Djoser Genomics"
 description: "Djoser Genomics - Bioinformatics Portfolio"
 logo: "assets/images/logo.png"
 favicon: "assets/images/logo.png"
-baseurl:
+baseurl: ""
 google_analytics: "UA-46278016-1"
 include: ["_pages"]
 permalink: /:title/
