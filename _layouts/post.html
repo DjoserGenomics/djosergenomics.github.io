@@ -1,6 +1,5 @@
 ---
 layout: default
-disqus: false
 archive: false
 post_class: post-template
 ---
@@ -20,22 +19,6 @@ post_class: post-template
 
         <div class="col-md-9 flex-first flex-md-unordered">
             <div class="mainheading">
-
-                <!-- Author Box -->
-                {% if page.author %}
-                <div class="row post-top-meta">
-                    <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
-                        {% if author.avatar %}
-                        <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}">
-                        {% endif %}
-                    </div>
-                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
-                        <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a>
-                        <span style="display: block;" class="author-description">{{ author.description }}</span>
-                    </div>
-                </div>
-                {% endif %}
-
                 <!-- Post Title -->
                 <h1 class="posttitle">{{ page.title }}</h1>
 
@@ -136,20 +119,6 @@ post_class: post-template
     </div>
 </div>
 <!-- End Article
-================================================== -->
-
-<!-- Begin Comments
-================================================== -->
-<!-- {% if page.comments != false %}
-    <div class="container">
-        <div id="comments" class="row justify-content-center mb-5">
-            <div class="col-md-8">
-                {% include disqus.html %}
-            </div>
-        </div>
-    </div>
-{% endif %} -->
-<!--End Comments
 ================================================== -->
 
 <!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 

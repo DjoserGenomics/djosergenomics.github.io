@@ -1,6 +1,6 @@
 ---
 layout: page
-title: cookiePolicy
+title: Cookie Policy
 permalink: /cookie-policy
 ---
 
@@ -21,7 +21,7 @@ permalink: /cookie-policy
     Last Updated: 18-Jan-2025
 </p>
 
-&nbsp;
+<br>
 
 <h5>What are cookies?</h5>
 <div class="cookie-policy-p"><p>This Cookie Policy explains what cookies are and how we use them, the types of cookies we use i.e, the information we collect using cookies and how that information is used, and how to manage the cookie settings.</p> <p>Cookies are small text files that are used to store small pieces of information. They are stored on your device when the website is loaded on your browser. These cookies help us make the website function properly, make it more secure, provide better user experience, and understand how the website performs and to analyze what works and where it needs improvement.</p></div>

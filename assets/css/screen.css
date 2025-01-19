@@ -235,12 +235,13 @@ section.recent-posts {
 span.post-name,
 span.post-date,
 span.author-meta {
-  display: inline-block;
+  display: block;
+  font-size: 1rem;
 }
 
 span.post-date,
 span.post-read {
-  color: rgba(0, 0, 0, 0.44);
+  color: rgba(0, 0, 0, 0.55);
 }
 
 span.post-read-more {
@@ -312,7 +313,7 @@ span.post-read-more a:hover {
 }
 
 .mediumnavigation .navbar-brand img {
-  max-height: 30px;
+  max-height: 60px;
   margin-right: 5px;
 }
 
