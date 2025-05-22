@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Djoser Genomics Stroy"
+title: "Djoser Genomics Story"
 author: Nourelden
 categories: [Story]
 tags: ["Djoser Genomics"]
