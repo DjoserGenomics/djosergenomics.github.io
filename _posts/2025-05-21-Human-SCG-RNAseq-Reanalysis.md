@@ -11,6 +11,7 @@ tags:
     "Cardiac Disease",
     "Djoser Genomics",
     "Publication",
+    "2025",
   ]
 image: "assets/images/Djoser Genomics Logo.png"
 featured: true

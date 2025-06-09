@@ -3,7 +3,7 @@ layout: post
 title: "Djoser Genomics Story"
 author: Nourelden
 categories: [Story]
-tags: ["Djoser Genomics"]
+tags: ["Djoser Genomics", "2025"]
 image: "assets/images/Djoser Genomics Logo.png"
 featured: true
 hidden: true

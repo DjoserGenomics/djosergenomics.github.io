@@ -3,7 +3,7 @@ layout: post
 title: "Introducing DHPTA: A Host-Pathogen Transcriptomic Atlas for Microbial Diseases"
 author: Nourelden
 categories: [Story, DHPTA]
-tags: ["Djoser Genomics", "DHPTA"]
+tags: ["Djoser Genomics", "DHPTA", "2025"]
 image: "assets/images/DHPTA Landscape.png"
 featured: true
 hidden: false
