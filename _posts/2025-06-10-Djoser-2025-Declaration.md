@@ -87,13 +87,13 @@ We’ll keep including our long-term goals in every roadmap until they become re
 
 ---
 
-## ☕ Supporting Djoser Genomics
+<!-- ## ☕ Supporting Djoser Genomics
 
-Djoser Genomics remains entirely independent and unfunded.  
-If you’d like to support my learning journey and the growth of this initiative, you can donate via **[Ko-fi](https://ko-fi.com/djosergenomics)**.  
+Djoser Genomics remains entirely independent and unfunded.
+If you’d like to support my learning journey and the growth of this initiative, you can donate via **[Ko-fi](https://ko-fi.com/djosergenomics)**.
 These donations are personal and _not_ tied to any deliverables — they simply help me keep going.
 
----
+--- -->
 
 ## 🗓️ Track Our Progress
 
