@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: "Introducing DHPTA: A Host-Pathogen Transcriptomic Atlas for Microbial Diseases"
 author: Nourelden
@@ -33,4 +33,4 @@ DHPTA isn’t just a project, it’s a statement. That meaningful research doesn
 
 You can visit the DHPTA landing page [here](https://djosergenomics.github.io/dhpta)
 
-Let the journey begin.
+Let the journey begin. -->

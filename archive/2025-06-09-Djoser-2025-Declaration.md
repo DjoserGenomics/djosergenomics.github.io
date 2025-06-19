@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: "Djoser's 2025 Declaration"
 author: Nourelden
@@ -59,16 +59,16 @@ These are personal goals that reflect both my own growth and the direction I hop
 
 ## 🤝 Values We Stand By
 
-- **Open Science First**  
+- **Open Science First**
   All data, code, and results are made public to benefit others.
 
-- **Collaboration Over Competition**  
+- **Collaboration Over Competition**
   Anyone can contribute, suggest datasets, or reuse the work. Just cite and share.
 
-- **Human-First Science**  
+- **Human-First Science**
   Research should feel, heal, and help, not just publish and vanish.
 
-- **Step-by-Step Growth**  
+- **Step-by-Step Growth**
   Whether one paper or one dream, everything starts with one small action.
 
 ---
@@ -95,7 +95,7 @@ These donations are personal and _not_ tied to any deliverables — they simply 
 
 --- -->
 
-## 🗓️ Track Our Progress
+<!-- ## 🗓️ Track Our Progress
 
 As we complete 2025 goals, we’ll return to this declaration and mark completed milestones like this:
 
@@ -103,4 +103,4 @@ As we complete 2025 goals, we’ll return to this declaration and mark completed
 
 ---
 
-Every dataset, post, and insight is a step and Pyramids are built step by step.
+Every dataset, post, and insight is a step and Pyramids are built step by step. -->
