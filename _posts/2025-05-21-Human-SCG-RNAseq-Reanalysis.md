@@ -2,7 +2,7 @@
 layout: post
 title: "When Heart Disease Meets the Nervous System: Uncovering Immune Signatures in the Superior Cervical Ganglion"
 author: Nourelden
-categories: [RNAseq, SCG, Transcriptomics]
+categories: [RNAseq, SCG, Transcriptomics, Projects]
 tags:
   [
     "RNAseq",
