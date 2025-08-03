@@ -13,7 +13,7 @@ Welcome to Djoser Genomics!
 
 </p>
 
-<p class="mb-5"><img src="{{site.baseurl}}/assets/images/DjoserGenomicsLandscape.jpg" alt="Djoser Genomics Landscpae Logo" /></p>
+<p class="mb-5"><img src="{{site.baseurl}}/assets/images/Djoser Genomics Landscape.png" alt="Djoser Genomics Landscape Logo" /></p>
 
 <p>
 

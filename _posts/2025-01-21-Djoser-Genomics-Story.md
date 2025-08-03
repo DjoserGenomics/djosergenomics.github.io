@@ -4,7 +4,7 @@ title: "Djoser Genomics Story"
 author: Nourelden
 categories: [Story]
 tags: ["Djoser Genomics", "2025"]
-image: "assets/images/Djoser Genomics Logo.png"
+image: "assets/images/Djoser Genomics Landscape.png"
 featured: true
 hidden: true
 ---
