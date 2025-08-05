@@ -183,3 +183,7 @@ He is best known for designing the **Step Pyramid of Saqqara**, considered the f
 The legacy of **Imhotep**, **Djoser** _(Will show up in a future scroll ;D)_ and the **Step Pyramid of Djoser** at Saqqara is what inspired **Djoser Genomics**. It’s a reminder that every structure — ancient or scientific — begins with a strong, thoughtful foundation, step by step.
 
 ---
+
+> Papyrus Background from the Post's Cover photo is from [Freepik](https://www.freepik.com/free-photo/grunge-background_4258615.htm)
+
+---
