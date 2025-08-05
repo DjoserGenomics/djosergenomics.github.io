@@ -2,9 +2,15 @@
 title: "Djoser's Bulk RNAseq Tutorial Codex"
 layout: post
 author: Nourelden
-categories: [Tutorials, RNAseq, Transcriptomics]
+categories: [Tutorials, RNAseq]
 tags:
-  ["Bulk RNAseq Tutorial Codex", "Tutorial Outline", "Djoser Genomics", "2025"]
+  [
+    "Bulk RNAseq Tutorial Codex",
+    "History",
+    "Tutorial Outline",
+    "Djoser Genomics",
+    "2025",
+  ]
 image: "assets/images/Djoser Bulk RNAseq Tutorial Codex Landscape.png"
 featured: true
 hidden: false

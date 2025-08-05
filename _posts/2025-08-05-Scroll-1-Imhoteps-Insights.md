@@ -2,8 +2,8 @@
 title: "Scroll 1: Imhotep's Insights"
 layout: post
 author: Nourelden
-categories: [Tutorials, RNAseq, Transcriptomics]
-tags: ["Bulk RNAseq Tutorial Codex", "Djoser Genomics", "2025"]
+categories: [Tutorials, RNAseq]
+tags: ["Bulk RNAseq Tutorial Codex", "History", "Djoser Genomics", "2025"]
 image: "assets/images/posts/Scroll-1-Imhoteps-Insights/Scroll 1 Imhoteps Insights.jpg"
 featured: true
 hidden: false
@@ -116,7 +116,7 @@ datasets = [
     'ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR244/038/SRR24448338/SRR24448338.fastq.gz',
     'ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR244/039/SRR24448339/SRR24448339.fastq.gz',
     'ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR244/040/SRR24448340/SRR24448340.fastq.gz',
-    'https://ftp.ensembl.org/pub/release-113/fasta/homo_sapiens/cdna/Homo_sapiens.GRCh38.cdna.all.fa.gz'
+    'https://ftp.ensembl.org/pub/release-114/fasta/homo_sapiens/cdna/Homo_sapiens.GRCh38.cdna.all.fa.gz'
 ]
 ```
 
@@ -168,7 +168,7 @@ Let’s now shift gears from code to culture in our **Cultural Checkpoint** belo
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-1-Imhoteps-Insights/Imhotep.jpg" alt="Imhotep Statue" width="400"/>
-  <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Statue_of_Seated_Imhotep_MET_DP112608.jpg" target="_blank">Image credit: Wikimedia Commons</a></p>
+  <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Statue_of_Seated_Imhotep_MET_DP112608.jpg" target="_blank">© Wikimedia Commons / Metropolitan Museum of Art - CC0 1.0</a></p>
 </div>
 
 **Imhotep** is one of the most remarkable figures in ancient Egyptian history. Serving under Pharaoh Djoser, he was a **polymath** — an architect, high priest, physician, and adviser. Though not a scientist in the modern sense, his legacy in organizing knowledge and healing earns him symbolic credit here as a timeless figure of structure and insight.
@@ -177,7 +177,7 @@ He is best known for designing the **Step Pyramid of Saqqara**, considered the f
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-1-Imhoteps-Insights/Step Pyramid of Djoser.jpg" alt="Pyramid of Djoser - Saqqara" width="700"/>
-  <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Sakkara-10-Djoser-Pyramide-1982-gje.jpg" target="_blank">Image credit: Wikimedia Commons / Gerd Eichmann</a></p>
+  <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Sakkara-10-Djoser-Pyramide-1982-gje.jpg" target="_blank">© Wikimedia Commons / Gerd Eichmann - CC BY-SA 4.0</a></p>
 </div>
 
 The legacy of **Imhotep**, **Djoser** _(Will show up in a future scroll ;D)_ and the **Step Pyramid of Djoser** at Saqqara is what inspired **Djoser Genomics**. It’s a reminder that every structure — ancient or scientific — begins with a strong, thoughtful foundation, step by step.
