@@ -29,7 +29,7 @@ This series is built for beginners, students, and anyone learning on their own -
 - **Bite-sized lessons** for each step of the RNAseq workflow
 - Built using **free tools** like Google Colab, R, and public datasets
 - **Minimal setup**, focused explanations, and reproducible code
-- A light touch of **ancient Egyptian history**, each tutorial ends with a “Cultural Checkpoint” themed after a real historical figure who represents the spirit of that step
+- A light touch of **ancient Egyptian history**, each tutorial ends with a “Cultural Spotlight” themed after a real historical figure who represents the spirit of that step
 
 ---
 
@@ -59,7 +59,7 @@ This series is built for beginners, students, and anyone learning on their own -
 
 <br />
 
-> You’ll find a clean, technical tutorial first in each post — then, for those curious, a brief **Cultural Checkpoint** to highlight the Egyptian figure who inspired it.
+> You’ll find a clean, technical tutorial first in each post — then, for those curious, a brief **Cultural Spotlight** to highlight the Egyptian figure who inspired it.
 
 ---
 

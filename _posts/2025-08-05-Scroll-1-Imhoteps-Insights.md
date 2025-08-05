@@ -23,7 +23,7 @@ This first scroll opens with the foundational act: collecting real RNA-seq data 
   - [Create a Directory for Your Data](#create-a-directory-for-your-data)
   - [Define the Download URLs](#define-the-download-urls)
   - [Download Each File](#download-each-file)
-- [Cultural Checkpoint: Imhotep & the Legacy of Saqqara](#cultural-checkpoint-imhotep-the-legacy-of-saqqara)
+- [Cultural Spotlight: Imhotep & the Legacy of Saqqara](#cultural-spotlight-imhotep-the-legacy-of-saqqara)
 
 ---
 
@@ -160,11 +160,11 @@ for url in datasets:
 
 In this scroll, we gathered real RNA-seq data from ENA and prepared it for analysis in Google Colab — following the same foundational steps researchers take every day in transcriptomics workflows.
 
-Let’s now shift gears from code to culture in our **Cultural Checkpoint** below.
+Let’s now shift gears from code to culture in our **Cultural Spotlight** below.
 
 ---
 
-## 🏛️ <a id='cultural-checkpoint-imhotep-the-legacy-of-saqqara'>Cultural Checkpoint: Imhotep & the Legacy of Saqqara</a>
+## 🏛️ <a id='cultural-spotlight-imhotep-the-legacy-of-saqqara'>Cultural Spotlight: Imhotep & the Legacy of Saqqara</a>
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-1-Imhoteps-Insights/Imhotep.jpg" alt="Imhotep Statue" width="400"/>

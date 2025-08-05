@@ -27,7 +27,7 @@ Let’s dive into **Quality Control**.
 - [Interpreting the FastQC Reports](#interpreting-the-fastqc-reports)
 - [Bonus: Summarizing Results with MultiQC](#bonus-summarizing-results-with-multiqc)
 - [Interpreting the MultiQC Report](#interpreting-the-multiqc-report)
-- [Cultural Checkpoint: Hesy-Ra – The Scribe of Teeth and Records](#cultural-checkpoint-hesy-ra)
+- [Cultural Spotlight: Hesy-Ra – The Scribe of Teeth and Records](#cultural-spotlight-hesy-ra)
 
 ---
 
@@ -258,11 +258,11 @@ Here you can check multiple parameters for multiple samples at once.
 
 **That’s it!** You’ve now looked under the hood of your raw data and checked that it’s clean and ready for quantification.
 
-Let’s now take a cultural breath with our next checkpoint.
+Let’s now take a cultural breath with our next Spotlight.
 
 ---
 
-## 🏛️ <a id="cultural-checkpoint-hesy-ra">Cultural Checkpoint: Hesy-Ra – The Scribe of Teeth and Records</a>
+## 🏛️ <a id="cultural-spotlight-hesy-ra">Cultural Spotlight: Hesy-Ra – The Scribe of Teeth and Records</a>
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-2-Hesy-Ras-Diagnostics/Hesy-Ra.jpg" alt="Hesy-Ra" width="400"/>
