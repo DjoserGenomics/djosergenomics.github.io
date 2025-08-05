@@ -167,7 +167,7 @@ Let’s now shift gears from code to culture in our **Cultural Checkpoint** belo
 ## 🏛️ <a id='cultural-checkpoint-imhotep-the-legacy-of-saqqara'>Cultural Checkpoint: Imhotep & the Legacy of Saqqara</a>
 
 <div style="text-align: center;">
-  <img src="/assets/images/posts/Scroll-1-Imhoteps-Insights/imhotep.jpg" alt="Imhotep Statue" width="400"/>
+  <img src="/assets/images/posts/Scroll-1-Imhoteps-Insights/Imhotep.jpg" alt="Imhotep Statue" width="400"/>
   <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Statue_of_Seated_Imhotep_MET_DP112608.jpg" target="_blank">Image credit: Wikimedia Commons</a></p>
 </div>
 
