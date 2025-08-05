@@ -3,7 +3,8 @@ title: "Djoser's Bulk RNAseq Tutorial Codex"
 layout: post
 author: Nourelden
 categories: [Tutorials, RNAseq, Transcriptomics]
-tags: ["Tutorial Outline", "Djoser Genomics", "2025"]
+tags:
+  ["Bulk RNAseq Tutorial Codex", "Tutorial Outline", "Djoser Genomics", "2025"]
 image: "assets/images/Djoser Bulk RNAseq Tutorial Codex Landscape.png"
 featured: true
 hidden: false
@@ -38,15 +39,16 @@ This series is built for beginners, students, and anyone learning on their own -
 | 6️⃣   | **GO/KEGG Enrichment + Dot Plots**               | _Merit-Ptah’s Clarity_ |
 | 7️⃣   | **GSEA + Enrichment Plots**                      | _Thutmose’s Strategy_  | -->
 
-| Part | Title                                            | Status      |
-| ---- | ------------------------------------------------ | ----------- |
-| 1️⃣   | **Collecting Data & FASTQC**                     | In Progress |
-| 2️⃣   | **Kallisto Pseudoalignment**                     | In Progress |
-| 3️⃣   | **Importing into R, Annotations & Study Design** | In Progress |
-| 4️⃣   | **Differential Gene Expression with DESeq2**     | In Progress |
-| 5️⃣   | **MA Plot, PCA, Volcano**                        | In Progress |
-| 6️⃣   | **GO/KEGG Enrichment + Dot Plots**               | In Progress |
-| 7️⃣   | **GSEA + Enrichment Plots**                      | In Progress |
+| Part | Title                                            | Theme/Status                                                       |
+| ---- | ------------------------------------------------ | ------------------------------------------------------------------ |
+| 1️⃣   | **Data Collection**                              | [Imhotep’s Insights]({{site_baseurl}}/Scroll-1-Imhoteps-Insights/) |
+| 2️⃣   | **Quality Control**                              | In Progress                                                        |
+| 3️⃣   | **Kallisto Pseudoalignment**                     | In Progress                                                        |
+| 4️⃣   | **Importing into R, Annotations & Study Design** | In Progress                                                        |
+| 5️⃣   | **Differential Gene Expression with DESeq2**     | In Progress                                                        |
+| 6️⃣   | **MA Plot, PCA, Volcano**                        | In Progress                                                        |
+| 7️⃣   | **GO/KEGG Enrichment + Dot Plots**               | In Progress                                                        |
+| 8️⃣   | **GSEA + Enrichment Plots**                      | In Progress                                                        |
 
 <br />
 
