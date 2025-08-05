@@ -160,6 +160,8 @@ for url in datasets:
 
 In this scroll, we gathered real RNA-seq data from ENA and prepared it for analysis in Google Colab — following the same foundational steps researchers take every day in transcriptomics workflows.
 
+If you want to continue, head over to the next scroll: [Hesy-Ra's Diagnostics]({{site_baseurl}}/Scroll-2-Hesy-Ras-Diagnostics/), where we’ll perform Quality Control
+
 Let’s now shift gears from code to culture in our **Cultural Spotlight** below.
 
 ---
