@@ -5,7 +5,7 @@ author: Nourelden
 categories: [Variant Calling, Zebrafish, Projects]
 tags: ["Mutations", "Marine Biology", "Djoser Genomics", "2025"]
 image: "assets/images/posts/Zebrafish-Variant-Calling/Zebrafish.jpg"
-featured: true
+featured: false
 hidden: false
 ---
 

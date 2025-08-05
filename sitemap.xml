@@ -1,76 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://djosergenomics.github.io/Djoser-Genomics-Story/</loc>
-<lastmod>2025-01-21T00:00:00+03:00</lastmod>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/Human-SCG-RNAseq-Reanalysis/</loc>
-<lastmod>2025-05-21T00:00:00+03:00</lastmod>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/Zebrafish-Variant-Calling-Project/</loc>
-<lastmod>2025-07-23T00:00:00+03:00</lastmod>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/Bulk-RNAseq-Tutorial-Codex/</loc>
-<lastmod>2025-08-04T00:00:00+03:00</lastmod>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/Scroll-1-Imhoteps-Insights/</loc>
-<lastmod>2025-08-04T00:00:00+03:00</lastmod>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/about</loc>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/categories</loc>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/cookie-policy</loc>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/</loc>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/privacy-policy</loc>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/tags</loc>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/category/story/</loc>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/category/rnaseq/</loc>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/category/scg/</loc>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/category/transcriptomics/</loc>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/category/projects/</loc>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/category/variant-calling/</loc>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/category/zebrafish/</loc>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/category/genomics/</loc>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/category/tutorials/</loc>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/archive/dhpta.html</loc>
-<lastmod>2025-06-19T21:32:23+03:00</lastmod>
-</url>
-<url>
-<loc>https://djosergenomics.github.io/googlefdae9c56175fd306.html</loc>
-<lastmod>2025-08-03T06:17:31+03:00</lastmod>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ site.url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  {% for page in site.pages %}
+    {% if page.sitemap != false %}
+      <url>
+        <loc>{{ site.url }}{{ page.url | absolute_url }}</loc>
+        <lastmod>{{ page.date | default: site.time | date_to_xmlschema }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+      </url>
+    {% endif %}
+  {% endfor %}
+  {% for post in site.posts %}
+    <url>
+      <loc>{{ site.url }}{{ post.url | absolute_url }}</loc>
+      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  {% endfor %}
 </urlset>

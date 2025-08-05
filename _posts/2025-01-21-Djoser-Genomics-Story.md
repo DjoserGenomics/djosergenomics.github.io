@@ -5,8 +5,8 @@ author: Nourelden
 categories: [Story]
 tags: ["Djoser Genomics", "2025"]
 image: "assets/images/Djoser Genomics Landscape.png"
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 Climbing the Pyramid: The Story Behind Djoser Genomics
