@@ -5,7 +5,7 @@ description: "Djoser Genomics:  Learning & Advancing Transcriptomics & Bioinform
 logo: "assets/images/logo.png"
 favicon: "assets/images/logo.png"
 # baseurl: ""
-# baseurl: "https://djosergenomics.github.io"
+produrl: "https://djosergenomics.github.io"
 google_analytics: "G-QN6Q5EFQGR"
 include: ["_pages", ".well-known"]
 permalink: /:title/
