@@ -314,7 +314,7 @@ Now time for our next Cultural Spotlight.
 ## 🏛️ <a id="cultural-spotlight-khufu-mastermind-of-the-great-pyramid">Cultural Spotlight: Khufu — Mastermind of the Great Pyramid</a>
 
 <div style="text-align: center;">
-  <img src="/assets/images/posts/Scroll-3-Khufus-Calculations/Khufu.png" alt="Khufu" width="400"/>
+  <img src="/assets/images/posts/Scroll-3-Khufus-Calculations/Khufu.jpg" alt="Khufu" width="400"/>
   <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Khufu.jpg" target="_blank">© Wikimedia Commons / Osiritkos - CC BY-SA 4.0</a></p>
 </div>
 
