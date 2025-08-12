@@ -266,14 +266,14 @@ Let’s now take a cultural breath with our next Spotlight.
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-2-Hesy-Ras-Diagnostics/Hesy-Ra.jpg" alt="Hesy-Ra" width="400"/>
-  <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Hesy-Ra_CG1426.jpg" target="_blank">© Wikimedia Commons / James Edward Quibell</a></p>
+  <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Hesy-Ra_CG1426.jpg" target="_blank">Hesy-Ra - © Wikimedia Commons / James Edward Quibell</a></p>
 </div>
 
 **Hesy-Ra** served during the reign of **King Djoser** and held titles such as **Chief of Dentists and Physicians**. But most importantly for us, he was **a revered scribe** — a role closely tied to record keeping, precision, and early scientific observation.
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-2-Hesy-Ras-Diagnostics/Hesy-Ra wooden Tablets.jpg" alt="Hesy-Ra wooden Tablets" width="700"/>
-  <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Musee_de_Boulaq_-_Tablets_(1881)_-_front_-_TIMEA.jpg" target="_blank">© Wikimedia Commons / Musee de Boulaq via TIMEA - CC BY 2.5</a></p>
+  <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Musee_de_Boulaq_-_Tablets_(1881)_-_front_-_TIMEA.jpg" target="_blank">Hesy-Ra's Wooden Tablets - © Wikimedia Commons / Musee de Boulaq via TIMEA - CC BY 2.5</a></p>
 </div>
 
 His tomb, found in **Saqqara**, contains some of the **earliest examples of wood panel art** and inscriptions. These are not just decorations — they’re some of the first recorded efforts to preserve knowledge across time.

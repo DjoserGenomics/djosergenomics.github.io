@@ -35,23 +35,13 @@ This series is built for beginners, students, and anyone learning on their own -
 
 ## 🧭 The Path Ahead (Tutorial Roadmap)
 
-<!-- | Part | Title                                            | Theme                  |
-| ---- | ------------------------------------------------ | ---------------------- |
-| 1️⃣   | **Collecting Data & FASTQC**                     | _Imhotep’s Insight_    |
-| 2️⃣   | **Kallisto Pseudoalignment**                     | _Senusret’s Precision_ |
-| 3️⃣   | **Importing into R, Annotations & Study Design** | _Ptahhotep’s Order_    |
-| 4️⃣   | **Differential Gene Expression with DESeq2**     | _Hatshepsut’s Resolve_ |
-| 5️⃣   | **MA Plot, PCA, Volcano**                        | _Ramesses’ Reveal_     |
-| 6️⃣   | **GO/KEGG Enrichment + Dot Plots**               | _Merit-Ptah’s Clarity_ |
-| 7️⃣   | **GSEA + Enrichment Plots**                      | _Thutmose’s Strategy_  | -->
-
 | Part | Title                                            | Theme/Status                                                             |
 | ---- | ------------------------------------------------ | ------------------------------------------------------------------------ |
 | 1️⃣   | **Data Collection**                              | [Imhotep’s Insights]({{site_baseurl}}/Scroll-1-Imhoteps-Insights/)       |
 | 2️⃣   | **Quality Control**                              | [Hesy-Ra's Diagnostics]({{site_baseurl}}/Scroll-2-Hesy-Ras-Diagnostics/) |
-| 3️⃣   | **Kallisto Pseudoalignment**                     | In Progress                                                              |
-| 4️⃣   | **Importing into R, Annotations & Study Design** | In Progress                                                              |
-| 5️⃣   | **Differential Gene Expression with DESeq2**     | In Progress                                                              |
+| 3️⃣   | **Kallisto Pseudoalignment**                     | [Khufu's Calculations]({{site_baseurl}}/Scroll-3-Khufus-Calculations/)   |
+| 4️⃣   | **Importing into R, Annotations & Study Design** | [Khafre's Connections]({{site_baseurl}}/Scroll-4-Khafres-Connections/)   |
+| 5️⃣   | **Differential Gene Expression with DESeq2**     | [Menkaure's Measures]({{site_baseurl}}/Scroll-5-Menkaures-Measures/)     |
 | 6️⃣   | **MA Plot, PCA, Volcano**                        | In Progress                                                              |
 | 7️⃣   | **GO/KEGG Enrichment + Dot Plots**               | In Progress                                                              |
 | 8️⃣   | **GSEA + Enrichment Plots**                      | In Progress                                                              |

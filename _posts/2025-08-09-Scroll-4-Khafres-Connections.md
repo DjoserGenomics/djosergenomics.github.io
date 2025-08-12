@@ -213,14 +213,14 @@ Time for our Cultural Spotlight!
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-4-Khafres-Connections/Khafre.jpg" alt="Khafre" width="400"/>
-  <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Khafre_statue.jpg" target="_blank">© Wikimedia Commons / Jon Bodsworth</a></p>
+  <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Khafre_statue.jpg" target="_blank">Khafre - © Wikimedia Commons / Jon Bodsworth</a></p>
 </div>
 
 **Khafre**, also known as **Chephren**, was a ruler of Egypt’s Fourth Dynasty. He was the son of Khufu, the builder of the Great Pyramid, and carried forward his family’s ambitious tradition of monumental construction.
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-4-Khafres-Connections/Pyramid_of_Khafre.jpg" alt="Great Pyramid of Giza" width="700"/>
-  <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Pyramid_of_Khafre_Giza_Egypt_in_2015_2.jpg" target="_blank">© Wikimedia Commons / MusikAnimal - CC BY-SA 3.0</a></p>
+  <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Pyramid_of_Khafre_Giza_Egypt_in_2015_2.jpg" target="_blank"> Khafre's Pyramid -© Wikimedia Commons / MusikAnimal - CC BY-SA 3.0</a></p>
 </div>
   
 His pyramid at Giza, though slightly smaller in base than his father’s, was built on higher ground — creating the illusion that it matched or even exceeded Khufu’s in height. Uniquely, the topmost layers of its original **Tura limestone casing** are still visible today, offering a rare glimpse of how these structures once gleamed in the desert sun.

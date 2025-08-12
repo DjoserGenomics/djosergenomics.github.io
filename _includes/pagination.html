@@ -3,7 +3,7 @@
   {% if paginator.previous_page %}
   <a
     class="ml-1 mr-1"
-    href="{{ paginator.previous_page_path | prepend: site.produrl | replace: '//', '/' }}"
+    href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
     >&laquo; Prev</a
   >
   {% else %}
@@ -14,19 +14,19 @@
   {% elsif page == 1 %}
   <a
     class="ml-1 mr-1"
-    href="{{ paginator.previous_page_path | prepend: site.produrl | replace: '//', '/' }}"
+    href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
     >{{ page }}</a
   >
   {% else %}
   <a
     class="ml-1 mr-1"
-    href="{{ site.paginate_path | prepend: site.produrl | replace: '//', '/' | replace: ':num', page }}"
+    href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}"
     >{{ page }}</a
   >
   {% endif %} {% endfor %} {% if paginator.next_page %}
   <a
     class="ml-1 mr-1"
-    href="{{ paginator.next_page_path | prepend: site.produrl | replace: '//', '/' }}"
+    href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
     >Next &raquo;</a
   >
   {% else %}

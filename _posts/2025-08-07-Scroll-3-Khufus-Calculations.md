@@ -315,14 +315,14 @@ Now time for our next Cultural Spotlight.
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-3-Khufus-Calculations/Khufu.jpg" alt="Khufu" width="400"/>
-  <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Khufu.jpg" target="_blank">© Wikimedia Commons / Osiritkos - CC BY-SA 4.0</a></p>
+  <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Khufu.jpg" target="_blank">Khufu - © Wikimedia Commons / Osiritkos - CC BY-SA 4.0</a></p>
 </div>
 
 As we align sequences with surgical precision, let’s spotlight a figure known for monumental precision — **King Khufu (c. 2600 BC)**. Also known as **Cheops**, Khufu was the pharaoh behind the construction of the **Great Pyramid of Giza**, the largest and most iconic pyramid in Egypt.
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-3-Khufus-Calculations/Great_Pyramid_of_Giza.jpg" alt="Great Pyramid of Giza" width="700"/>
-  <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg" target="_blank">© Wikimedia Commons / Douwe C. van der Zee - CC BY-SA 4.0</a></p>
+  <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg" target="_blank">Great Pyramid of Giza - © Wikimedia Commons / Douwe C. van der Zee - CC BY-SA 4.0</a></p>
 </div>
 
 Khufu’s pyramid stood as the tallest human-made structure on Earth for over 3,800 years — a true feat of ancient engineering, planning, and coordination. Much like genome indexing prepares the way for efficient data alignment, Khufu’s pyramid was a meticulously planned foundation that shaped architectural history.
