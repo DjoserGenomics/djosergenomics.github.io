@@ -148,9 +148,11 @@ Once we have quantified our RNA-seq data using Kallisto and imported via `tximpo
 
 ---
 
-### 1. Creating a DESeq Dataset
+### 1. Import DESeq2 and Create a Dataset
 
 ```r
+library(DESeq2)
+
 dds <- DESeqDataSetFromTximport(
   txi = txi,
   colData = studyDesign,
@@ -342,7 +344,8 @@ Unlike his predecessors, Menkaure’s pyramid was partly clad in granite instead
 ---
 
 <style>
-table, th, td {
+
+table:not(.rouge-table), th, td:not(.rouge-gutter, .rouge-code) {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;

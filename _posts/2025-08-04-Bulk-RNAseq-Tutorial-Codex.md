@@ -42,7 +42,7 @@ This series is built for beginners, students, and anyone learning on their own -
 | 3️⃣   | **Kallisto Pseudoalignment**                     | [Khufu's Calculations]({{site_baseurl}}/Scroll-3-Khufus-Calculations/)   |
 | 4️⃣   | **Importing into R, Annotations & Study Design** | [Khafre's Connections]({{site_baseurl}}/Scroll-4-Khafres-Connections/)   |
 | 5️⃣   | **Differential Gene Expression with DESeq2**     | [Menkaure's Measures]({{site_baseurl}}/Scroll-5-Menkaures-Measures/)     |
-| 6️⃣   | **MA Plot, PCA, Volcano**                        | In Progress                                                              |
+| 6️⃣   | **MA Plot, PCA, Volcano**                        | [Ramses' Plots]({{site_baseurl}}/Scroll-6-Ramses-Plots/)                 |
 | 7️⃣   | **GO/KEGG Enrichment + Dot Plots**               | In Progress                                                              |
 | 8️⃣   | **GSEA + Enrichment Plots**                      | In Progress                                                              |
 
