@@ -168,7 +168,7 @@ Here we can clearly see the sample names and we can identify that sample **CD03*
 
 ---
 
-## <a id="volcano-plot"> Volcano Plot </a>
+## <a id="volcano-plot"> 📊 Volcano Plot </a>
 
 A **volcano plot** is a type of scatter plot that displays statistical significance (**padj** on Y-axis) versus magnitude of change (**log2FoldChange** on X-axis) for each gene.
 
@@ -227,7 +227,7 @@ This volcano plot provides a visual summary of the differential expression analy
 
 ---
 
-## <a id="heatmaps"> Heatmaps </a>
+## <a id="heatmaps"> 📊 Heatmaps </a>
 
 A heatmap is a graphical representation of data where values are shown as colors.
 
@@ -274,6 +274,12 @@ The color intensity indicates the level of expression, with warmer colors repres
 The heatmap allows for the clustering of genes and samples based on expression patterns. This can help identify groups of co-expressed genes or samples with similar expression profiles.
 
 > Heatmaps Provide much more valuable insights when done on a specific set of genes or DEGs rather than on all DEGs, where you can identify a set of genes that are co-expressed or exhibit similar patterns across conditions.
+
+---
+
+**That’s it!** You’ve successfully generated Visualizations and Plots using multiple R libraries and learned how to interpret them.
+
+Cultural Spotlight Incoming!
 
 ---
 
