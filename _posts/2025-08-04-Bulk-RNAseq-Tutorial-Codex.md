@@ -43,7 +43,7 @@ This series is built for beginners, students, and anyone learning on their own -
 | 4️⃣   | **Importing into R, Annotations & Study Design** | [Khafre's Connections]({{site_baseurl}}/Scroll-4-Khafres-Connections/)   |
 | 5️⃣   | **Differential Gene Expression with DESeq2**     | [Menkaure's Measures]({{site_baseurl}}/Scroll-5-Menkaures-Measures/)     |
 | 6️⃣   | **MA Plot, PCA, Volcano**                        | [Ramses' Plots]({{site_baseurl}}/Scroll-6-Ramses-Plots/)                 |
-| 7️⃣   | **GO/KEGG Enrichment + Dot Plots**               | In Progress                                                              |
+| 7️⃣   | **GO/KEGG Enrichment + Dot Plots**               | [Thutmose's Trends]({{site_baseurl}}/Scroll-7-Thutmoses-Trends/)         |
 | 8️⃣   | **GSEA + Enrichment Plots**                      | In Progress                                                              |
 
 <br />
