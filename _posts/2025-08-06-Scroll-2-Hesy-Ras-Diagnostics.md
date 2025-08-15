@@ -11,7 +11,7 @@ hidden: false
 
 Welcome to **Scroll 2** of 8, from the [_Djoser’s Bulk RNAseq Tutorial Codex_]({{site_baseurl}}/Bulk-RNAseq-Tutorial-Codex/).
 
-In this scroll, we ensure our raw sequencing data is clean and reliable — the essential next step before diving into analysis. Like **Hesy-Ra**, one of ancient Egypt’s earliest scribes and physicians, we begin by inspecting and documenting our raw materials with care.
+In this scroll, we ensure our raw sequencing data is clean and reliable, the essential next step before diving into analysis. Like **Hesy-Ra**, one of ancient Egypt’s earliest scribes and physicians, we begin by inspecting and documenting our raw materials with care.
 
 Let’s dive into **Quality Control**.
 
@@ -33,7 +33,7 @@ Let’s dive into **Quality Control**.
 
 ## 🧪 <a id="what-is-quality-control-in-rna-seq">What is Quality Control in RNA-seq?</a>
 
-Before diving into transcriptomic analysis, we need to verify the integrity and reliability of our raw sequencing data. This is called **Quality Control (QC)** — a critical checkpoint that helps us identify issues like:
+Before diving into transcriptomic analysis, we need to verify the integrity and reliability of our raw sequencing data. This is called **Quality Control (QC)**, a critical checkpoint that helps us identify issues like:
 
 - Poor read quality
 - Adapter contamination
@@ -74,7 +74,7 @@ Several tools are widely used for QC in RNA-seq workflows:
    - Aggregates reports from multiple tools into one view
    - Great for large projects
 
-For this tutorial, we’ll use **FastQC** — one of the most widely used and beginner-friendly tools for RNA-seq QC and **MultiQC** for report aggregation.
+For this tutorial, we’ll use **FastQC**, one of the most widely used and beginner-friendly tools for RNA-seq QC and **MultiQC** for report aggregation.
 
 ---
 
@@ -141,7 +141,7 @@ Each section is color-coded:
 - ⚠️ **Orange**: Warning
 - ❌ **Red**: Fail
 
-> Don't panic if you see some warnings or fails — many are **expected** in RNA-seq data and we will explain them later!
+> Don't panic if you see some warnings or fails , many are **expected** in RNA-seq data and we will explain them later!
 
 Here’s what to focus on:
 
@@ -182,7 +182,7 @@ Shows how often the base **‘N’** appears (i.e., uncalled or uncertain base).
 
 ### 🔹 Sequence Duplication Levels ⚠️
 
-**RNA-seq data often fails here — and that’s OK!**
+**RNA-seq data often fails here. And that’s OK!**
 
 - RNA-seq involves sequencing highly expressed genes, so **some sequences appear very often**.
 - Tools like DESeq2 or Kallisto account for this internally, so **you can ignore this warning** unless duplication is extreme.
@@ -269,16 +269,16 @@ Let’s now take a cultural breath with our next Spotlight.
   <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Hesy-Ra_CG1426.jpg" target="_blank">Hesy-Ra - © Wikimedia Commons / James Edward Quibell</a></p>
 </div>
 
-**Hesy-Ra** served during the reign of **King Djoser** and held titles such as **Chief of Dentists and Physicians**. But most importantly for us, he was **a revered scribe** — a role closely tied to record keeping, precision, and early scientific observation.
+**Hesy-Ra** served during the reign of **King Djoser** and held titles such as **Chief of Dentists and Physicians**. But most importantly for us, he was **a revered scribe**, a role closely tied to record keeping, precision, and early scientific observation.
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-2-Hesy-Ras-Diagnostics/Hesy-Ra wooden Tablets.jpg" alt="Hesy-Ra wooden Tablets" width="700"/>
   <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Musee_de_Boulaq_-_Tablets_(1881)_-_front_-_TIMEA.jpg" target="_blank">Hesy-Ra's Wooden Tablets - © Wikimedia Commons / Musee de Boulaq via TIMEA - CC BY 2.5</a></p>
 </div>
 
-His tomb, found in **Saqqara**, contains some of the **earliest examples of wood panel art** and inscriptions. These are not just decorations — they’re some of the first recorded efforts to preserve knowledge across time.
+His tomb, found in **Saqqara**, contains some of the **earliest examples of wood panel art** and inscriptions. These are not just decorations, they’re some of the first recorded efforts to preserve knowledge across time.
 
-Much like quality control in bioinformatics ensures the fidelity of our data before deeper analysis, Hesy-Ra’s work emphasized **clarity, documentation, and order** — the foundation of all future understanding.
+Much like quality control in bioinformatics ensures the fidelity of our data before deeper analysis, Hesy-Ra’s work emphasized **clarity, documentation, and order**, the foundation of all future understanding.
 
 ---
 

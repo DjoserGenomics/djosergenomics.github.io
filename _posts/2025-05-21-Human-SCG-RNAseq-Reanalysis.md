@@ -22,7 +22,7 @@ hidden: false
 
 **Preprint DOI:** [https://doi.org/10.1101/2025.05.18.654713](https://doi.org/10.1101/2025.05.18.654713)
 
-Ever wondered what happens to your nervous system when your heart is in trouble? It turns out, quite a lot! In this post, I'll walk you through my recent reanalysis of RNA-seq data from the superior cervical ganglion (SCG) in cardiac disease patients. What started as a curiosity-driven exploration revealed fascinating insights into neuroinflammation and immune signaling.
+Ever wondered what happens to your nervous system when your heart is in trouble? It turns out, quite a lot! In this post, I'll walk you through my recent reanalysis of RNAseq data from the superior cervical ganglion (SCG) in cardiac disease patients. What started as a curiosity-driven exploration revealed fascinating insights into neuroinflammation and immune signaling.
 
 ## The SCG and its role in Cardiac Disease
 
@@ -30,12 +30,12 @@ The superior cervical ganglion sits quietly in your neck, controlling blood vess
 
 ## The Dataset: A Second Look at Valuable Data
 
-For this study, I revisited human bulk RNA-seq data originally published by [Ziegler et al. (2023)](https://www.science.org/doi/10.1126/science.abn6366), available under ENA accession number PRJNA967653. The dataset includes SCG samples from:
+For this study, I revisited human bulk RNAseq data originally published by [Ziegler et al. (2023)](https://www.science.org/doi/10.1126/science.abn6366), available under ENA accession number PRJNA967653. The dataset includes SCG samples from:
 
 - 3 patients with cardiac disease
 - 3 healthy controls
 
-While the original authors focused primarily on single-cell RNA-seq findings, I saw an opportunity to extract additional value from the human bulk RNA-seq datasets, a perfect example of how reanalyzing existing data can yield new discoveries without additional experimental costs.
+While the original authors focused primarily on single-cell RNAseq findings, I saw an opportunity to extract additional value from the human bulk RNAseq datasets, a perfect example of how reanalyzing existing data can yield new discoveries without additional experimental costs.
 
 ## Methods: Data Processing Pipeline
 
@@ -151,7 +151,7 @@ These findings suggest that the SCG may serve as an active immuno-metabolic hub 
 
 Could targeting neuroinflammation in the SCG provide a novel therapeutic approach for cardiac patients? Could the SCG serve as a biomarker site for disease progression?
 
-This study demonstrates the tremendous value of revisiting existing transcriptomic datasets with new analytical approaches. By taking a second look at the SCG bulk RNA-seq data, I've uncovered evidence for neuroinflammation, adaptive immunity, and metabolic reprogramming that adds new dimensions to our understanding of the heart-brain connection in disease.
+This study demonstrates the tremendous value of revisiting existing transcriptomic datasets with new analytical approaches. By taking a second look at the SCG bulk RNAseq data, I've uncovered evidence for neuroinflammation, adaptive immunity, and metabolic reprogramming that adds new dimensions to our understanding of the heart-brain connection in disease.
 
 ## Access the Full Study
 
@@ -164,5 +164,5 @@ All code, analysis scripts, and supplementary files can be found on GitHub:
 ## Citation
 
 If you reference this work, please cite:  
-**Nourelden Rihan. Transcriptomic Signatures of Neuroinflammation and Adaptive Immunity in the Human SCG During Cardiac Disease: A Bulk RNA-seq Reanalysis. bioRxiv 2025.**  
+**Nourelden Rihan. Transcriptomic Signatures of Neuroinflammation and Adaptive Immunity in the Human SCG During Cardiac Disease: A Bulk RNAseq Reanalysis. bioRxiv 2025.**  
 [DOI: 10.1101/2025.05.18.654713](https://doi.org/10.1101/2025.05.18.654713)

@@ -23,7 +23,7 @@ Let’s bring our data into focus.
 - [Principal Component Analysis (PCA) Plot](#principal-component-analysis-pca-plot)
 - [Volcano Plot](#volcano-plot)
 - [Heatmaps](#heatmaps)
-- [Cultural Spotlight: Ramses II — The Monumental Ruler of Egypt](#cultural-spotlight-ramses-ii-the-monumental-ruler-of-egypt)
+- [Cultural Spotlight: Ramses II – The Monumental Ruler of Egypt](#cultural-spotlight-ramses-ii-the-monumental-ruler-of-egypt)
 
 ---
 
@@ -58,15 +58,11 @@ plotMA(res, alpha = 0.05, main = "MA Plot: Disease vs Healthy (padj < 0.05)")
 - `plotMA()` → Generates an MA plot where:
 
   - The x-axis = mean expression of genes (in normalized counts).
-
   - The y-axis = log2 fold change (log2FC).
-
   - Each dot = a gene.
-
   - Blue dots = genes significantly differentially expressed based on `alpha`.
 
 - `alpha` = 0.05 → Highlights genes with adjusted p-values less than 0.05.
-
 - `main` → Title of the plot.
 
 ---
@@ -79,11 +75,8 @@ plotMA(res, alpha = 0.05, main = "MA Plot: Disease vs Healthy (padj < 0.05)")
 </div>
 
 - For the Overall distribution, most points cluster around the Y = 0 line, suggesting that for the majority of genes, expression is similar between the two conditions.
-
 - Some Genes are upregulated (Y > 0) in Disease compared to healthy and some are downregulated (Y < 0).
-
 - At low average expression (X axis), there’s more scatter, which is typical due to increased variance in low-abundance genes.
-
 - Blue dots mark genes passing the FDR threshold (padj < 0.05), concentrated mostly in the upper and lower extremes (these are our DEGs).
 
 ---
@@ -117,7 +110,6 @@ plotPCA(vst, ntop = 1000, intgroup = "Condition")
 ```
 
 - `ntop=1000`: Uses the top 1000 most variable genes to compute PCA, focusing on genes that carry the most biological signal instead of noise (sometimes it can be increased a bit to capture the most variance).
-
 - `Condition`: The grouping variable used to color the samples (Disease vs. Healthy).
 
 ---
@@ -130,9 +122,7 @@ plotPCA(vst, ntop = 1000, intgroup = "Condition")
 </div>
 
 - In the **PCA plot**, Alongside PC2, samples from the Healthy group clustered at the bottom while the Disease group cluster relativly at the top except for one disease sample which seems to be closer to Healhy group rather than the diesease group.
-
 - PC2 explains 27% of the total variance. This indicates strong expression differences between the two conditions.
-
 - PC1 (39% variance) captures more crosswide variation, possibly biological differences within conditions, expression patterns, or individual-specific effects.
 
 ### Bonus: Adding more details to your plots using **`ggplot2`**
@@ -283,7 +273,7 @@ Cultural Spotlight Incoming!
 
 ---
 
-## 🏛️ <a id="cultural-spotlight-ramses-ii-the-monumental-ruler-of-egypt">Cultural Spotlight: Ramses II — The Monumental Ruler of Egypt</a>
+## 🏛️ <a id="cultural-spotlight-ramses-ii-the-monumental-ruler-of-egypt">Cultural Spotlight: Ramses II – The Monumental Ruler of Egypt</a>
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-6-Ramses-Plots/RamsesII.jpg" alt="Ramses II" width="700"/>

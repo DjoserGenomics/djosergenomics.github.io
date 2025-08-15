@@ -25,7 +25,7 @@ Let’s explore the bigger picture.
 - [Performing GO Enrichment Analysis](#performing-go-enrichment-analysis)
 - [Pathway Enrichment Analysis](#pathway-enrichment-analysis)
 - [Performing KEGG Enrichment Analysis](#performing-kegg-enrichment-analysis)
-- [Cultural Spotlight: Thutmose III — The Conqueror Pharaoh of Egypt](#cultural-spotlight-thutmose-iii-the-conqueror-pharaoh-of-egypt)
+- [Cultural Spotlight: Thutmose III – The Conqueror Pharaoh of Egypt](#cultural-spotlight-thutmose-iii-the-conqueror-pharaoh-of-egypt)
 
 ---
 
@@ -200,7 +200,7 @@ Time for our Cultural Spotlight!
 
 ---
 
-## 🏛️ <a id="cultural-spotlight-thutmose-iii-the-conqueror-pharaoh-of-egypt">Cultural Spotlight: Thutmose III — The Conqueror Pharaoh of Egypt</a>
+## 🏛️ <a id="cultural-spotlight-thutmose-iii-the-conqueror-pharaoh-of-egypt">Cultural Spotlight: Thutmose III – The Conqueror Pharaoh of Egypt</a>
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-7-Thutmoses-Trends/Thutmose_III.jpg" alt="Thutmose III" width="400"/>

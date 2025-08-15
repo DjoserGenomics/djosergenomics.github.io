@@ -26,7 +26,7 @@ Let’s begin the analysis.
 - [Performing Differential Expression Analysis (DEA) with DESeq2](#performing-differential-expression-analysis-dea-with-deseq2)
 - [Setting Cutoffs for DEGs](#setting-cutoffs-for-degs)
 - [Interpreting DEGs](#interpreting-degs)
-- [Cultural Spotlight: Menkaure — The Visionary of the Elegant Pyramid](#cultural-spotlight-menkaure-the-visionary-of-the-elegant-pyramid)
+- [Cultural Spotlight: Menkaure – The Visionary of the Elegant Pyramid](#cultural-spotlight-menkaure-the-visionary-of-the-elegant-pyramid)
 
 ---
 
@@ -55,9 +55,9 @@ Without DEA, RNA-seq data is just a massive table of numbers. DEA brings interpr
 
 When running DEA, expect to see:
 
-- Upregulated genes — More active in your condition of interest.
-- Downregulated genes — Less active in your condition of interest.
-- Statistical summaries — Number of significant genes, effect sizes, and trends.
+- Upregulated genes -> More active in your condition of interest.
+- Downregulated genes -> Less active in your condition of interest.
+- Statistical summaries -> Number of significant genes, effect sizes, and trends.
 
 These findings can be later used to produce some graphs (Which will be covered in the next scroll), these include:
 
@@ -66,7 +66,7 @@ These findings can be later used to produce some graphs (Which will be covered i
 
 ### ⚠️ Keep in mind:
 
-- Not all DEGs will be biologically meaningful — some may be artifacts.
+- Not all DEGs will be biologically meaningful, some may be artifacts.
 - DEA results are the starting point, not the final story.
 - Biological interpretation and validation are essential next steps.
 
@@ -235,9 +235,9 @@ When performing **DEA**, not all genes showing differences between conditions ar
 
 A widely used practice is to apply two main thresholds:
 
-1. **Adjusted p-value (`padj`)** — Controls the **False Discovery Rate (FDR)**.
+1. **Adjusted p-value (`padj`)**: Controls the **False Discovery Rate (FDR)**.
    - A common threshold is `padj < 0.05`, meaning we accept only genes with a statistically significant change after multiple testing correction.
-2. **Absolute log2 Fold Change (`|log2FC|`)** — Represents the magnitude of change.
+2. **Absolute log2 Fold Change (`|log2FC|`)**: Represents the magnitude of change.
    - A common threshold is `|log2FC| >= 1`, meaning we keep genes with at least a **2-fold change** in expression (either up or down).
 
 This combination helps ensure that the identified **DEGs** are both statistically reliable and biologically meaningful.
@@ -321,14 +321,14 @@ Time for a Cultural Spotlight.
 
 ---
 
-## 🏛️ <a id="cultural-spotlight-menkaure-the-visionary-of-the-elegant-pyramid">Cultural Spotlight: Menkaure — The Visionary of the Elegant Pyramid</a>
+## 🏛️ <a id="cultural-spotlight-menkaure-the-visionary-of-the-elegant-pyramid">Cultural Spotlight: Menkaure – The Visionary of the Elegant Pyramid</a>
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-5-Menkaures-Measures/Menkaure.jpg" alt="Menkaure" width="400"/>
   <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Seated_Statue_of_King_Menkaure_MET_37.6.1_01.jpg" target="_blank">Menkaure - © Wikimedia Commons CC0 1.0</a></p>
 </div>
 
-**Menkaure**, also known as **Mykerinos**, was a ruler of Egypt’s Fourth Dynasty. He was the son of Khafre, He is most famous for his pyramid at Giza — the smallest of the three iconic pyramids, yet admired for its refined proportions and exquisite craftsmanship.
+**Menkaure**, also known as **Mykerinos**, was a ruler of Egypt’s Fourth Dynasty. He was the son of Khafre, He is most famous for his pyramid at Giza, the smallest of the three iconic pyramids, yet admired for its refined proportions and exquisite craftsmanship.
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-5-Menkaures-Measures/Pyramid_of_Menkaure.jpg" alt="Great Pyramid of Giza" width="700"/>

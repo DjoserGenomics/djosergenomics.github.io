@@ -20,7 +20,7 @@ A beginner friendly bulk RNAseq tutorial series told through step by step guides
 
 Welcome to **Djoser's Bulk RNAseq Tutorial Codex**, a series of tutorials where I walk you through bulk RNAseq analysis step by step, from raw FASTQ files to enrichment plots, using real tools and free resources.
 
-This series is built for beginners, students, and anyone learning on their own - just like I did. Everything here is based on the exact workflow I used in [my first preprint](https://doi.org/10.1101/2025.05.18.654713), where I analyzed public RNAseq data to explore immune signals in cardiac disease.
+This series is built for beginners, students, and anyone learning on their own, just like I did. Everything here is based on the exact workflow I used in [my first preprint](https://doi.org/10.1101/2025.05.18.654713), where I analyzed public RNAseq data to explore immune signals in cardiac disease.
 
 ---
 
@@ -44,17 +44,17 @@ This series is built for beginners, students, and anyone learning on their own -
 | 5️⃣   | **Differential Gene Expression with DESeq2**     | [Menkaure's Measures]({{site_baseurl}}/Scroll-5-Menkaures-Measures/)     |
 | 6️⃣   | **MA Plot, PCA, Volcano**                        | [Ramses' Plots]({{site_baseurl}}/Scroll-6-Ramses-Plots/)                 |
 | 7️⃣   | **GO/KEGG Enrichment + Dot Plots**               | [Thutmose's Trends]({{site_baseurl}}/Scroll-7-Thutmoses-Trends/)         |
-| 8️⃣   | **GSEA + Enrichment Plots**                      | In Progress                                                              |
+| 8️⃣   | **GSEA + Enrichment Plots**                      | [Djoser's Discoveries]({{site_baseurl}}/Scroll-8-Djosers-Discoveries/)   |
 
 <br />
 
-> You’ll find a clean, technical tutorial first in each post — then, for those curious, a brief **Cultural Spotlight** to highlight the Egyptian figure who inspired it.
+> You’ll find a clean, technical tutorial first in each post, then, for those curious, a brief **Cultural Spotlight** to highlight the Egyptian figure who inspired it.
 
 ---
 
 ## 💬 Why I'm Doing This
 
-I started learning bioinformatics alone, with no lab or mentor, no roadmap — just a drive to understand life through data. It’s been one of the hardest things I’ve done, but also the most rewarding.
+I started learning bioinformatics alone, with no lab or mentor, no roadmap, just a drive to understand life through data. It’s been one of the hardest things I’ve done, but also the most rewarding.
 
 This tutorial series is my way of giving back, building forward, and making space for others who might be walking a similar road.
 

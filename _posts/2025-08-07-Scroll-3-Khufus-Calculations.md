@@ -11,7 +11,7 @@ hidden: false
 
 Welcome to **Scroll 3** of 8, from the [_Djoser’s Bulk RNAseq Tutorial Codex_]({{site_baseurl}}/Bulk-RNAseq-Tutorial-Codex/).
 
-In this scroll, we perform pseudoalignment — a fast, reference-based mapping approach — to quantify transcripts from our RNA-seq reads. Like **Khufu**, the visionary behind the Great Pyramid, we rely on efficient design and foundational precision to build something monumental.
+In this scroll, we perform pseudoalignment, a fast, reference-based mapping approach, to quantify transcripts from our RNA-seq reads. Like **Khufu**, the visionary behind the Great Pyramid, we rely on efficient design and foundational precision to build something monumental.
 
 Let’s begin the alignment.
 
@@ -27,13 +27,13 @@ Let’s begin the alignment.
 - [Reference Transcriptome Indexing using Kallisto](#reference-transcriptome-indexing-using-kallisto)
 - [Quantifying Expression with Kallisto](#quantifying-expression-with-kallisto)
 - [Alignment Rate Check (Quality Control)](#alignment-rate-check-quality-control)
-- [Cultural Spotlight: Khufu — Mastermind of the Great Pyramid](#cultural-spotlight-khufu-mastermind-of-the-great-pyramid)
+- [Cultural Spotlight: Khufu – Mastermind of the Great Pyramid](#cultural-spotlight-khufu-mastermind-of-the-great-pyramid)
 
 ---
 
 ## 🔹 <a id='what-is-alignment-and-why-do-we-do-it'> What Is Alignment, and Why Do We Do It? </a>
 
-Before we push forward in our transcriptomics journey, we must first pause — and understand the concept of sequence alignment.
+Before we push forward in our transcriptomics journey, we must first pause, and understand the concept of sequence alignment.
 
 In RNA-seq analysis, after sequencing, we’re left with millions of short reads. But they’re just disconnected fragments. To make sense of them, we need to reconnect them to their original source: a reference genome or in our case **a reference transcriptome**.
 
@@ -47,9 +47,7 @@ It takes each read and finds the best-matching location in the genome or transcr
 These tools use algorithms to search for where reads fit:
 
 - **HISAT2** – Fast, memory-efficient, often used for genome alignment.
-
 - **STAR** – Extremely fast and splice-aware, ideal for eukaryotic transcriptome data.
-
 - **BWA** – Great for DNA reads, used often in genomics pipelines.
 
 But there's a catch, Alignment is powerful, but also **computationally expensive**. It can take hours, require a strong CPU, computational power and produce huge files (like **BAMs**). For large datasets or limited compute resources, it becomes a bottleneck.
@@ -183,7 +181,7 @@ Indexing is the process of converting a FASTA reference file into a structured, 
 
 For Kallisto, the input reference is usually a **cDNA (transcript-level)** FASTA file, not the full genome. This is because Kallisto performs transcript-level quantification.
 
-Without indexing, Kallisto would have to scan the entire reference file for every read — this would be very slow and computationally inefficient. The index accelerates the process by using k-mer hashing.
+Without indexing, Kallisto would have to scan the entire reference file for every read, this would be very slow and computationally inefficient. The index accelerates the process by using k-mer hashing.
 
 ---
 
@@ -216,7 +214,7 @@ print(f"Index created: {index_file}")
 
 Once the reference transcriptome index is prepared, it's time to quantify transcript abundances for each sample using **Kallisto's `quant`** command.
 
-`kallisto quant` takes your indexed reference and your raw FASTQ files and performs **psuedoalignment** to estimate how many transcripts are present in each sample—quickly and efficiently.
+`kallisto quant` takes your indexed reference and your raw FASTQ files and performs **psuedoalignment** to estimate how many transcripts are present in each sample, quickly and efficiently.
 
 ### 🗂️ Sample Setup
 
@@ -232,7 +230,6 @@ kallistoData = [['HS01', 'SRR24448340.fastq.gz'],
 ```
 
 - **HS** samples are healthy controls.
-
 - **CD** samples are from cardiac disease patients.
 
 > The **HS** and **CD** prefixes help us differentiate between healthy and disease samples, which is crucial for downstream analysis, You can know which sample is which through the sample metadata of each one on **ENA**.
@@ -266,13 +263,9 @@ for data in kallistoData:
 ### 🧾 Explanation:
 
 - `-i {index_file}`: The path to the reference transcriptome index you created earlier.
-
 - `-o "$folder"`: Output folder for results (TPMs and estimated counts).
-
 - `--single`: Specifies that the reads are single-end.
-
 - `-l 250 -s 30`: Estimated average fragment length and standard deviation (important for single-end data).
-
 - `"$filelocation"`: Input FASTQ file.
 
 ---
@@ -282,9 +275,7 @@ for data in kallistoData:
 Each sample will now produce a folder containing a file named abundance.tsv, which includes:
 
 - Estimated counts
-
 - TPMs (Transcripts Per Million)
-
 - Effective lengths
 
 ---
@@ -311,21 +302,21 @@ Now time for our next Cultural Spotlight.
 
 ---
 
-## 🏛️ <a id="cultural-spotlight-khufu-mastermind-of-the-great-pyramid">Cultural Spotlight: Khufu — Mastermind of the Great Pyramid</a>
+## 🏛️ <a id="cultural-spotlight-khufu-mastermind-of-the-great-pyramid">Cultural Spotlight: Khufu – Mastermind of the Great Pyramid</a>
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-3-Khufus-Calculations/Khufu.jpg" alt="Khufu" width="400"/>
   <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Khufu.jpg" target="_blank">Khufu - © Wikimedia Commons / Osiritkos - CC BY-SA 4.0</a></p>
 </div>
 
-As we align sequences with surgical precision, let’s spotlight a figure known for monumental precision — **King Khufu (c. 2600 BC)**. Also known as **Cheops**, Khufu was the pharaoh behind the construction of the **Great Pyramid of Giza**, the largest and most iconic pyramid in Egypt.
+As we align sequences with surgical precision, let’s spotlight a figure known for monumental precision, **King Khufu (c. 2600 BC)**. Also known as **Cheops**, Khufu was the pharaoh behind the construction of the **Great Pyramid of Giza**, the largest and most iconic pyramid in Egypt.
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-3-Khufus-Calculations/Great_Pyramid_of_Giza.jpg" alt="Great Pyramid of Giza" width="700"/>
   <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg" target="_blank">Great Pyramid of Giza - © Wikimedia Commons / Douwe C. van der Zee - CC BY-SA 4.0</a></p>
 </div>
 
-Khufu’s pyramid stood as the tallest human-made structure on Earth for over 3,800 years — a true feat of ancient engineering, planning, and coordination. Much like genome indexing prepares the way for efficient data alignment, Khufu’s pyramid was a meticulously planned foundation that shaped architectural history.
+Khufu’s pyramid stood as the tallest human-made structure on Earth for over 3,800 years, a true feat of ancient engineering, planning, and coordination. Much like genome indexing prepares the way for efficient data alignment, Khufu’s pyramid was a meticulously planned foundation that shaped architectural history.
 
 ---
 

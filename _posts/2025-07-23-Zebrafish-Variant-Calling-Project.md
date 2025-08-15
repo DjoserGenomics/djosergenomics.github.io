@@ -17,7 +17,7 @@ Image by <a href="https://pixabay.com/users/kuznetsov_peter-15644238/?utm_source
 
 # 🐟 Variant Calling in Zebrafish
 
-In this post, I document a hands-on training project I conducted using real sequencing data from the zebrafish study [PRJNA630223](https://www.ebi.ac.uk/ena/browser/view/PRJNA630223). This study from **University of Glasgow** investigated how **fisheries-induced selection** —specifically simulated trawling— affects the **genetic landscape of zebrafish**, with a focus on how **population density** modulates these responses.
+In this post, I document a hands-on training project I conducted using real sequencing data from the zebrafish study [PRJNA630223](https://www.ebi.ac.uk/ena/browser/view/PRJNA630223). This study from **University of Glasgow** investigated how **fisheries-induced selection** (specifically simulated trawling) affects the **genetic landscape of zebrafish**, with a focus on how **population density** modulates these responses.
 
 > 📚 _The original study involved over 90 zebrafish samples, reared under different density conditions, gender and subjected to repeated harvest. However, my project only analyzes four samples for training purposes._
 
@@ -64,7 +64,7 @@ All steps were conducted using open-source tools within a Galaxy + Jupyter envir
 
 ## 📊 Results
 
-> Note: These results are purely descriptive and reflect only the four samples I selected for training. They're not representative of the full study and aren't meant to support any biological claims — just to help me learn from real data.
+> Note: These results are purely descriptive and reflect only the four samples I selected for training. They're not representative of the full study and aren't meant to support any biological claims. Just to help me learn from real data.
 
 ### 1. Total Variants Per Sample
 

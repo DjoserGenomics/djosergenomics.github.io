@@ -13,9 +13,9 @@ Welcome to **Scroll 4** of 8, from the [_Djoser’s Bulk RNAseq Tutorial Codex_]
 
 In this scroll, we bridge our quantified RNA-seq data to meaningful biological interpretation. Like King Khafre, who built enduring connections through his grand monuments and trade networks, we now establish crucial links between raw numbers and biological meaning.
 
-With R as our foundation, we’ll set up our project, define our study design, bring in annotations from BioMart, and import Kallisto results with tximport — building the pathways that will guide our downstream analysis.
+With R as our foundation, we’ll set up our project, define our study design, bring in annotations from BioMart, and import Kallisto results with tximport, building the pathways that will guide our downstream analysis.
 
-> **Note:** This tutorial assumes you have **basic experience with R** — such as running commands, installing packages, and working with data frames. We will not be covering fundamental R syntax in detail.
+> **Note:** This tutorial assumes you have **basic experience with R**, such as running commands, installing packages, and working with data frames. We will not be covering fundamental R syntax in detail.
 
 ---
 
@@ -26,7 +26,7 @@ With R as our foundation, we’ll set up our project, define our study design, b
 - [Gene Annotations](#gene-annotations)
 - [Fetching Annotations from Ensembl BioMart](#fetching-annotations-from-ensembl-biomart)
 - [Importing Kallisto Results with Tximport](#importing-kallisto-results-with-tximport)
-- [Cultural Spotlight: Khafre — Builder of the Timeless Pyramid](#cultural-spotlight-khafre-builder-of-the-timeless-pyramid)
+- [Cultural Spotlight: Khafre – Builder of the Timeless Pyramid](#cultural-spotlight-khafre-builder-of-the-timeless-pyramid)
 
 ---
 
@@ -87,7 +87,7 @@ all(file.exists(paths))
 ## 🧬 <a id="gene-annotations"> Gene Annotations</a>
 
 **What are annotations?**  
-In RNA-seq, quantification tools like **kallisto** produce counts for _transcripts_ (e.g., ENST00000335137.4). While these transcript IDs are precise, they aren’t always intuitive — most biologists want to see **gene names** like _BRCA1_.
+In RNA-seq, quantification tools like **kallisto** produce counts for _transcripts_ (e.g., ENST00000335137.4). While these transcript IDs are precise, they aren’t always intuitive, most biologists want to see **gene names** like _BRCA1_.
 
 Annotations bridge this gap by mapping transcript IDs to gene IDs and human-readable gene names.  
 Without them, our results would be just lists of cryptic alphanumeric codes, making interpretation and biological insight difficult.
@@ -145,11 +145,11 @@ annotations <- tryCatch({
 })
 ```
 
-- `getBM(...)` — Fetches the actual annotation table containing:
+- `getBM(...)` → Fetches the actual annotation table containing:
 - `ensembl_transcript_id` → Transcript-level identifier (used by kallisto).
 - `ensembl_gene_id` → Gene-level identifier.
 - `external_gene_name` → Common gene name.
-- `rename(...)` — Renames columns so that target_id matches kallisto’s output for easier merging later.
+- `rename(...)` → Renames columns so that target_id matches kallisto’s output for easier merging later.
 
 ---
 
@@ -209,7 +209,7 @@ Time for our Cultural Spotlight!
 
 ---
 
-## 🏛️ <a id="cultural-spotlight-khafre-builder-of-the-timeless-pyramid">Cultural Spotlight: Khafre — Builder of the Timeless Pyramid</a>
+## 🏛️ <a id="cultural-spotlight-khafre-builder-of-the-timeless-pyramid">Cultural Spotlight: Khafre – Builder of the Timeless Pyramid</a>
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-4-Khafres-Connections/Khafre.jpg" alt="Khafre" width="400"/>
@@ -223,7 +223,7 @@ Time for our Cultural Spotlight!
   <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Pyramid_of_Khafre_Giza_Egypt_in_2015_2.jpg" target="_blank"> Khafre's Pyramid -© Wikimedia Commons / MusikAnimal - CC BY-SA 3.0</a></p>
 </div>
   
-His pyramid at Giza, though slightly smaller in base than his father’s, was built on higher ground — creating the illusion that it matched or even exceeded Khufu’s in height. Uniquely, the topmost layers of its original **Tura limestone casing** are still visible today, offering a rare glimpse of how these structures once gleamed in the desert sun.
+His pyramid at Giza, though slightly smaller in base than his father’s, was built on higher ground, creating the illusion that it matched or even exceeded Khufu’s in height. Uniquely, the topmost layers of its original **Tura limestone casing** are still visible today, offering a rare glimpse of how these structures once gleamed in the desert sun.
 
 <div style="text-align: center;">
   <img src="/assets/images/posts/Scroll-4-Khafres-Connections/Sphinx.jpg" alt="Great Sphinx of Giza" width="700"/>
