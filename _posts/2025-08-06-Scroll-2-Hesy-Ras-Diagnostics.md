@@ -31,7 +31,7 @@ Let’s dive into **Quality Control**.
 
 ---
 
-## 🧪 <a id="what-is-quality-control-in-rna-seq">What is Quality Control in RNA-seq?</a>
+## <a id="what-is-quality-control-in-rna-seq">What is Quality Control in RNA-seq?</a>
 
 Before diving into transcriptomic analysis, we need to verify the integrity and reliability of our raw sequencing data. This is called **Quality Control (QC)**, a critical checkpoint that helps us identify issues like:
 
@@ -44,7 +44,7 @@ Skipping this step is like building a house without checking if your bricks are 
 
 ---
 
-## ⚠️ <a id="why-qc-matters-before-analysis"> Why QC Matters Before Analysis</a>
+## <a id="why-qc-matters-before-analysis"> Why QC Matters Before Analysis</a>
 
 Downstream RNA-seq analysis tools like DESeq2 or edgeR **assume your input is clean**. If poor-quality data sneaks through:
 
@@ -60,7 +60,7 @@ Performing QC ensures:
 
 ---
 
-## 🛠️ <a id="common-qc-tools-for-rna-seq">Common QC Tools for RNA-seq</a>
+## <a id="common-qc-tools-for-rna-seq">Common QC Tools for RNA-seq</a>
 
 Several tools are widely used for QC in RNA-seq workflows:
 
@@ -78,7 +78,7 @@ For this tutorial, we’ll use **FastQC**, one of the most widely used and begin
 
 ---
 
-## ⚙️ <a id="installing-fastqc--multiqc-on-google-colab">Installing FastQC & MultiQC on Google Colab</a>
+## <a id="installing-fastqc--multiqc-on-google-colab">Installing FastQC & MultiQC on Google Colab</a>
 
 We’ll first install the tools.
 
@@ -98,7 +98,7 @@ Run the following code in a Colab cell:
 
 ---
 
-## ▶️ <a id="running-fastqc">Running FastQC</a>
+## <a id="running-fastqc">Running FastQC</a>
 
 Running FastQC is simple. You give it your FASTQ files, and it generates a report. You can also specify an output directory to keep things organized.
 
@@ -131,7 +131,7 @@ for dataset in FASTQs:
 
 ---
 
-## 📊 <a id="interpreting-the-fastqc-reports">Interpreting the FastQC Reports</a>
+## <a id="interpreting-the-fastqc-reports">Interpreting the FastQC Reports</a>
 
 After running **FastQC**, you’ll find an HTML report for each FASTQ file inside the `FASTQC_reports` folder. Open the `.html` file in a browser and explore the results.
 
@@ -147,7 +147,7 @@ Here’s what to focus on:
 
 ---
 
-### 🔹 Basic Statistics
+### Basic Statistics
 
 This section gives a quick summary:
 
@@ -159,7 +159,7 @@ Check that the total number of reads is what you expect and the GC content is wi
 
 ---
 
-### 🔹 Per Base Sequence Quality
+### Per Base Sequence Quality
 
 This is one of the **most important** plots.
 
@@ -170,7 +170,7 @@ It shows the quality scores (Phred scores) across each base position in your rea
 
 ---
 
-### 🔹 Per Base N Content
+### Per Base N Content
 
 Shows how often the base **‘N’** appears (i.e., uncalled or uncertain base).
 
@@ -179,7 +179,7 @@ Shows how often the base **‘N’** appears (i.e., uncalled or uncertain base).
 
 ---
 
-### 🔹 Sequence Duplication Levels ⚠️
+### Sequence Duplication Levels ⚠️
 
 **RNA-seq data often fails here. And that’s OK!**
 
@@ -188,7 +188,7 @@ Shows how often the base **‘N’** appears (i.e., uncalled or uncertain base).
 
 ---
 
-### 🔹 Overrepresented Sequences
+### Overrepresented Sequences
 
 Lists sequences that appear more often than expected.
 
@@ -197,7 +197,7 @@ Lists sequences that appear more often than expected.
 
 ---
 
-### 🔹 Adapter Content
+### Adapter Content
 
 Looks for sequencing adapter contamination.
 
@@ -207,7 +207,7 @@ Looks for sequencing adapter contamination.
 
 ---
 
-### 🔍 Should You Trim?
+### Should You Trim?
 
 - If your quality drops severely at the end of reads, or there’s strong adapter contamination, consider trimming.
 - For **clean data (like ours)**, trimming isn’t necessary.
@@ -215,7 +215,7 @@ Looks for sequencing adapter contamination.
 
 ---
 
-## 📦 <a id="bonus-summarizing-results-with-multiqc">Bonus: Summarizing Results with MultiQC</a>
+## <a id="bonus-summarizing-results-with-multiqc">Bonus: Summarizing Results with MultiQC</a>
 
 When working with **multiple samples**, it becomes tedious to manually open and compare each individual FastQC report.
 
@@ -223,14 +223,14 @@ That’s where **MultiQC** comes in.
 
 MultiQC scans your report directory and automatically generates a single **interactive summary HTML report** that consolidates all FastQC outputs.
 
-### ✅ Why Use MultiQC?
+### Why Use MultiQC?
 
 - Saves time and effort
 - Makes cross-sample comparisons easy
 - Helps spot sample-specific issues
 - Looks great in reports and presentations
 
-### ▶️ Run MultiQC in Colab
+### Run MultiQC in Colab
 
 Assuming you already installed it earlier:
 
@@ -242,7 +242,7 @@ This will generate a file named `multiqc_report.html` in your working directory.
 
 ---
 
-## 📊 <a id="interpreting-the-multiqc-report">Interpreting the MultiQC Report (Same as FastQC)</a>
+## <a id="interpreting-the-multiqc-report">Interpreting the MultiQC Report (Same as FastQC)</a>
 
 MultiQC aggregates all your FastQC reports into a single HTML file, making it easier to compare samples.
 

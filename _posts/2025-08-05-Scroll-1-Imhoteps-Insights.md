@@ -27,7 +27,7 @@ This first scroll opens with the foundational act: collecting real RNA-seq data 
 
 ---
 
-## 🧪 <a id="finding-real-rna-seq-datasets">Step 1: Finding Real RNA-seq Datasets</a>
+## <a id="finding-real-rna-seq-datasets">Step 1: Finding Real RNA-seq Datasets</a>
 
 Before diving into bioinformatics tools, we need real-world RNA-seq data to work with.
 
@@ -55,7 +55,7 @@ Each project page provides sample descriptions and links to raw `.fastq.gz` file
 
 ---
 
-## 🧬 <a id="dataset-used-in-this-tutorial">Dataset Used in This Tutorial</a>
+## <a id="dataset-used-in-this-tutorial">Dataset Used in This Tutorial</a>
 
 We’ll use a publicly available human dataset from <a href="https://www.ebi.ac.uk/ena/browser/view/PRJNA967653" target="_blank">ENA Project PRJNA967653</a>, which examines gene expression changes in human superior cervical ganglia with and without cardiac diseases.
 
@@ -80,7 +80,7 @@ In addition to the RNA-seq reads, we’ll use the **reference human transcriptom
 
 ---
 
-## 💾 <a id="downloading-the-data-in-google-colab">Step 2: Downloading the Data in Google Colab</a>
+## <a id="downloading-the-data-in-google-colab">Step 2: Downloading the Data in Google Colab</a>
 
 We’ll be running everything inside <a href="https://colab.research.google.com/" target="_blank">Google Colab</a>, a free, cloud-based Jupyter notebook that supports Python and shell commands, making it perfect for bioinformatics tutorials.
 
@@ -88,7 +88,7 @@ Open a new Colab notebook and follow along step by step.
 
 ---
 
-### 📁 <a id="create-a-directory-for-your-data">1. Create a Directory for Your Data</a>
+### <a id="create-a-directory-for-your-data">1. Create a Directory for Your Data</a>
 
 This block of code creates a folder inside Colab’s virtual environment to store the RNA-seq data we’ll download.
 
@@ -104,7 +104,7 @@ if not os.path.exists(folderPath):
 
 ---
 
-### 🔗 2. <a id="define-the-download-urls">Define the Download URLs</a>
+### 2. <a id="define-the-download-urls">Define the Download URLs</a>
 
 Now we list all the datasets and the reference transcriptome file that we want to download:
 
@@ -120,14 +120,14 @@ datasets = [
 ]
 ```
 
-📌 Explanation:
+Explanation:
 
 - These are direct FTP/HTTP links to `.fastq.gz` files from ENA and the transcriptome FASTA file from Ensembl.
 - We’ve listed the links inside a Python list so we can loop over them next.
 
 ---
 
-### ⬇️ 3. <a id="download-each-file">Download Each File</a>
+### 3. <a id="download-each-file">Download Each File</a>
 
 Now we loop over each URL and download the corresponding file using `wget`.
 
@@ -143,7 +143,7 @@ for url in datasets:
         print(f"❌ Failed to download: {filename}")
 ```
 
-📌 Explanation:
+Explanation:
 
 - `filename = url.split("/")[-1]`: extracts the file name from the URL.
 - `!wget "$url" -P "$folderPath"`: downloads the file using the Unix `wget` command directly inside Colab.
@@ -151,12 +151,12 @@ for url in datasets:
 
 ---
 
-✅ **After running this step**, your `/content/RNAseq` folder in Colab should contain:
+**After running this step**, your `/content/RNAseq` folder in Colab should contain:
 
 - 6 `.fastq.gz` RNA-seq files
 - 1 `.fa.gz` transcriptome reference file
 
-🧪 That’s everything covered in **Imhotep’s Insights Scroll**.
+That’s everything covered in **Imhotep’s Insights Scroll**.
 
 In this scroll, we gathered real RNA-seq data from ENA and prepared it for analysis in Google Colab, following the same foundational steps researchers take every day in transcriptomics workflows.
 
