@@ -78,7 +78,7 @@ ego <- enrichGO(
 - `keyType` → Specifies the type of identifiers used in gene (e.g., "SYMBOL", "ENSEMBL", "ENTREZID").
 - `ont` → The GO ontology category to search. "BP" = Biological Process, "MF" = Molecular Function, "CC" = Cellular Component, "ALL" = all categories together.
 - `pvalueCutoff` → A filter to keep only terms with raw p-values ≤ this threshold.
-- `qvalueCutoff` → A filter to keep only terms with adjusted p-values (false discovery rate) ≤ this threshold.
+- `qvalueCutoff` → A filter to keep only terms with adjusted p-values (**false discovery rate**) ≤ this threshold.
 
 ---
 
@@ -126,7 +126,7 @@ In GO Dot Plots:
 - The **warmer** the color means higher **statistical significance**
 - The **bigger** the circle means more of our DEGs share in this term (Gene Ratio)
 
-so in our dot plot, for the Biological Pathways (BP), we can see that **Cytoplasmic Translation** is highly enriched, and highly significant followed by antigen processing.
+so in our dot plot, for the Biological Pathways (BP), we can see that **Cytoplasmic Translation** is highly enriched, and highly significant followed by **Antigen Processing**.
 
 These info can be used alongside Literature review to find connections and possible biological implications of the observed changes in gene expression.
 
@@ -143,7 +143,7 @@ It provides as much help as GO Enrichment Analysis in terms of Biological insigh
 
 ## <a id="performing-kegg-enrichment-analysis">Performing KEGG Enrichment Analysis</a>
 
-In R, KEGG pathway enrichment can be performed using the `clusterProfiler` package too, but we will need for the gene names to `Entrez IDs` first.
+In R, KEGG pathway enrichment can be performed using the `clusterProfiler` package too, but we will need to get the `Entrez IDs` for each gene first.
 
 we will create a `gene.map` where we will get the `Entrez ID` for each gene name using `bitr()`
 
@@ -196,6 +196,8 @@ here we can see that **Coronavirus disease - COVID-19** is highly enriched, foll
 
 **We're Done!** GO and KEGG Enrichment Analysis are very powerful as they can quickly group a huge amount of DEGs into specific Pathways and Functions that can give meaning and ease interpretation of your data.
 
+If you want to continue, head over to the next and final scroll: [Djoser's Discoveries]({{site_baseurl}}/Scroll-8-Djosers-Discoveries/), where we’ll perform Gene Set Enrichment Analysis (GSEA)
+
 Time for our Cultural Spotlight!
 
 ---
@@ -218,6 +220,6 @@ One enduring testament to his reign is the **obelisk** now standing in the **Hip
 
 ---
 
-> Papyrus Background from the Post's Cover photo is from [Freepik](https://www.freepik.com/free-photo/grunge-background_4258615.htm)
+> Papyrus Background from the Post's Cover photo is from <a href="https://www.freepik.com/free-photo/grunge-background_4258615.htm" target="_blank">Freepik</a>
 
 ---
