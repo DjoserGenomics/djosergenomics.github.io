@@ -30,20 +30,20 @@ With R as our foundation, we’ll set up our project, define our study design, b
 
 ---
 
-## 📦 <a id="prerequisites-setting-up-r-and-rstudio">Prerequisites: Setting up R and RStudio</a>
+## <a id="prerequisites-setting-up-r-and-rstudio">Prerequisites: Setting up R and RStudio</a>
 
 For the downstream analysis in this scroll, we will be using **R** as our main analysis environment. Before proceeding, ensure you have:
 
 - **R** installed on your system
 - **RStudio** (optional but highly recommended) as your development environment
 
-If you do not have R and RStudio installed yet, follow this video tutorial by [DIY Transcriptomics](https://diytranscriptomics.com/project/lecture-01#part-2---installing-software-and-talking-about-the-relationship-between-r-rstudio-and-bioconductor)
+If you do not have R and RStudio installed yet, follow this video tutorial by <a href="https://diytranscriptomics.com/project/lecture-01#part-2---installing-software-and-talking-about-the-relationship-between-r-rstudio-and-bioconductor" target="_blank">DIY.Transcriptomics</a>
 
-Once both are installed, you’re ready to proceed. We’ll start by creating a new **R Project** and R script to keep our analysis organized.
+Once both are installed, you’re ready to proceed. We’ll start by creating a new **R Project** and **R script** to keep our analysis organized.
 
 ---
 
-## ⚙️ <a id="creating-the-study-design">Creating the Study Design</a>
+## <a id="creating-the-study-design">Creating the Study Design</a>
 
 Before importing our quantification results into R, we need to define our **study design**. This serves as the blueprint for our analysis, to tell R which samples belong to which conditions and where their quantification files are stored.
 
@@ -61,7 +61,7 @@ studyDesign <- tibble(
 )
 ```
 
-- Accession: The NCBI Sequence Read Archive (SRA) accession IDs for each sample.
+- Accession: The Accession IDs for each sample.
 - Sample: The short names we assigned during kallisto quantification.
 - Condition: Biological condition for each sample (in this case, "Healthy" vs "Disease").
 
@@ -84,13 +84,12 @@ all(file.exists(paths))
 
 ---
 
-## 🧬 <a id="gene-annotations"> Gene Annotations</a>
+## <a id="gene-annotations"> Gene Annotations</a>
 
 **What are annotations?**  
-In RNA-seq, quantification tools like **kallisto** produce counts for _transcripts_ (e.g., ENST00000335137.4). While these transcript IDs are precise, they aren’t always intuitive, most biologists want to see **gene names** like _BRCA1_.
+In RNA-seq, quantification tools like **kallisto** produce counts for _transcripts_ (e.g., ENST00000335137.4). While these transcript IDs are precise, they aren’t always intuitive, mostly we want to see **gene names** like **_BRCA1_** for example.
 
-Annotations bridge this gap by mapping transcript IDs to gene IDs and human-readable gene names.  
-Without them, our results would be just lists of cryptic alphanumeric codes, making interpretation and biological insight difficult.
+Annotations bridge this gap by mapping transcript IDs to gene IDs and human-readable gene names.
 
 **Why do we need them?**
 
@@ -100,10 +99,9 @@ Without them, our results would be just lists of cryptic alphanumeric codes, mak
 
 ---
 
-## ▶️ <a id="fetching-annotations-from-ensembl-biomart">Fetching Annotations from Ensembl BioMart</a>
+## <a id="fetching-annotations-from-ensembl-biomart">Fetching Annotations from Ensembl BioMart</a>
 
-We’ll use the **biomaRt** package to connect to the Ensembl database and retrieve annotation data.  
-Here, we specifically use the _October 2024 Ensembl archive_ to ensure **consistent results** regardless of future updates.
+We’ll use the **biomaRt** package to connect to the Ensembl database and retrieve annotation data.
 
 ```r
 library(biomaRt)
@@ -146,23 +144,23 @@ annotations <- tryCatch({
 ```
 
 - `getBM(...)` → Fetches the actual annotation table containing:
-- `ensembl_transcript_id` → Transcript-level identifier (used by kallisto).
-- `ensembl_gene_id` → Gene-level identifier.
-- `external_gene_name` → Common gene name.
+  - `ensembl_transcript_id` → Transcript-level identifier (used by kallisto).
+  - `ensembl_gene_id` → Gene-level identifier.
+  - `external_gene_name` → Common gene name.
 - `rename(...)` → Renames columns so that target_id matches kallisto’s output for easier merging later.
 
 ---
 
-## 💡 <a id="importing-kallisto-results-with-tximport">Importing Kallisto Results with Tximport</a>
+## <a id="importing-kallisto-results-with-tximport">Importing Kallisto Results with Tximport</a>
 
-Now that we have **annotations**, the next step is to **link our kallisto transcript counts to gene-level counts**.  
+Now that we have **annotations**, the next step is to **link our kallisto transcript counts to gene level counts**.  
 We do this using the **tximport** package, which makes it easy to import quantification results into R for downstream analysis (e.g., DESeq2, edgeR).
 
 ---
 
-### 1️⃣ Create the transcript to gene map
+### Create the transcript to gene map
 
-Kallisto outputs counts at the _transcript_ level, but most downstream tools analyze _gene-level_ counts.  
+Kallisto outputs counts at the _transcript_ level, but most downstream tools analyze _gene_ level counts.  
 We therefore prepare a simple mapping table `tx2gene` (transcript 2 gene) with:
 
 - **target_id** → Transcript ID (from kallisto output)
@@ -174,11 +172,13 @@ tx2gene <- annotations %>%
   dplyr::select(target_id, gene_name)
 ```
 
-### 2️⃣ Run tximport to aggregate counts
+### Run tximport to aggregate counts
 
 `tximport` reads the `abundance.tsv` files produced by kallisto and aggregates transcript counts into gene counts using our tx2gene mapping.
 
 ```r
+library(tximport)
+
 # Running tximport
 txi <- tximport(
   paths,                    # Paths to abundance.tsv files
@@ -190,7 +190,7 @@ txi <- tximport(
 )
 ```
 
-📌 Explanation:
+Explanation:
 
 - `paths` List of file paths to kallisto’s `abundance.tsv` outputs for each sample.
 - `type = 'kallisto'` Tells tximport how to read the files.
@@ -201,9 +201,11 @@ txi <- tximport(
 
 ---
 
-## ✅ Outcome:
+## Outcome:
 
 You now have a gene-level expression matrix stored in `txi`, ready for differential expression analysis and visualization.
+
+If you want to continue, head over to the next scroll: [Menkaure's Measures]({{site_baseurl}}/Scroll-5-Menkaures-Measures/), where we’ll perform differential expression analysis (DEA) using DEseq2.
 
 Time for our Cultural Spotlight!
 
@@ -234,6 +236,6 @@ Khafre’s complex also includes the **Great Sphinx of Giza**, widely believed t
 
 ---
 
-> Papyrus Background from the Post's Cover photo is from [Freepik](https://www.freepik.com/free-photo/grunge-background_4258615.htm)
+> Papyrus Background from the Post's Cover photo is from <a href="https://www.freepik.com/free-photo/grunge-background_4258615.htm" target="_blank">Freepik</a>
 
 ---
