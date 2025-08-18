@@ -27,7 +27,7 @@ Let’s bring our data into focus.
 
 ---
 
-## <a id="ma-plot"> 📊 MA Plot </a>
+## <a id="ma-plot"> MA Plot </a>
 
 An **MA plot** is a type of scatter plot used in RNA-seq differential expression analysis to visualize the relationship between the **average expression** of genes and their **log fold change** between two conditions.
 
@@ -81,7 +81,7 @@ plotMA(res, alpha = 0.05, main = "MA Plot: Disease vs Healthy (padj < 0.05)")
 
 ---
 
-## <a id="principal-component-analysis-pca-plot"> 📊 Principal Component Analysis (PCA) Plot </a>
+## <a id="principal-component-analysis-pca-plot"> Principal Component Analysis (PCA) Plot </a>
 
 **PCA** is a dimensionality reduction technique that summarizes variation in large datasets into a few principal components that explain the largest sources of variance.
 
@@ -93,7 +93,7 @@ Before Diving into **PCA**, we need to understand **Variance Stabilizing Transfo
 
 ### Variance Stabilizing Transformation (vst)
 
-Raw RNAseq count data has a mean–variance relationship, genes with higher counts tend to have higher variance. PCA assumes the variance in the data is constant, so we perform **Variance Stabilizing Transformation (vst)** to transform counts into a scale where variance is stabilized across the range of expression levels.
+Raw RNAseq count data has a mean-variance relationship, genes with higher counts tend to have higher variance. PCA assumes the variance in the data is constant, so we perform **Variance Stabilizing Transformation (vst)** to transform counts into a scale where variance is stabilized across the range of expression levels.
 
 This makes differences between samples easier to interpret and prevents highly expressed genes from dominating the PCA.
 
@@ -158,7 +158,7 @@ Here we can clearly see the sample names and we can identify that sample **CD03*
 
 ---
 
-## <a id="volcano-plot"> 📊 Volcano Plot </a>
+## <a id="volcano-plot"> Volcano Plot </a>
 
 A **volcano plot** is a type of scatter plot that displays statistical significance (**padj** on Y-axis) versus magnitude of change (**log2FoldChange** on X-axis) for each gene.
 
@@ -205,9 +205,9 @@ EnhancedVolcano(res.df,
 
 This volcano plot provides a visual summary of the differential expression analysis results.
 
-1. **Significant Genes**: Genes that fall above the horizontal line (pCutoff) are considered statistically significant (Blue & Red Dots). Those that also fall outside the vertical lines (FCcutoff) are biologically significant (Green & Red Dots).
-
 > The Red Dots represent our DEGs
+
+1. **Significant Genes**: Genes that fall above the horizontal line (pCutoff) are considered statistically significant (Blue & Red Dots). Those that also fall outside the vertical lines (FCcutoff) are biologically significant (Green & Red Dots).
 
 2. **Direction of Change**: Genes on the right side of the plot are upregulated in the disease condition, while those on the left are downregulated.
 
@@ -217,7 +217,7 @@ This volcano plot provides a visual summary of the differential expression analy
 
 ---
 
-## <a id="heatmaps"> 📊 Heatmaps </a>
+## <a id="heatmaps"> Heatmaps </a>
 
 A heatmap is a graphical representation of data where values are shown as colors.
 
@@ -269,6 +269,8 @@ The heatmap allows for the clustering of genes and samples based on expression p
 
 **That’s it!** You’ve successfully generated Visualizations and Plots using multiple R libraries and learned how to interpret them.
 
+If you want to continue, head over to the next scroll: [Thutmose's Trends]({{site_baseurl}}/Scroll-7-Thutmoses-Trends/), where we’ll Proceed to more advanced topics like Functional and Pathway Enrichment Analyses.
+
 Cultural Spotlight Incoming!
 
 ---
@@ -287,12 +289,12 @@ Cultural Spotlight Incoming!
   <p style="font-size: 0.8em; color: gray;"><a href="https://commons.wikimedia.org/wiki/File:Templo_de_Ramses_II_01.jpg" target="_blank">Abu Simbel Temple - © Wikimedia Commons / BetoCG - CC BY 3.0</a></p>
 </div>
 
-One of his most iconic legacies is the **Abu Simbel temples**, carved into the cliffs of Nubia. These colossal monuments, with four towering statues of Ramses guarding the entrance, were designed to project his power and divine authority to anyone approaching Egypt’s southern frontier. Inside, intricate carvings depict his victories, religious devotion, and family.
+One of his most iconic legacies is the **Abu Simbel temples**, carved into the cliffs of Nubia. These colossal monuments, with four towering statues of Ramses guarding the entrance, were designed to project his power and divine authority to anyone approaching Egypt’s southern frontier.
 
 To this day, **Ramses II** remains a symbol of ambition, resilience, and the desire to leave an everlasting mark on history, a fitting inspiration for any great endeavor.
 
 ---
 
-> Papyrus Background from the Post's Cover photo is from [Freepik](https://www.freepik.com/free-photo/grunge-background_4258615.htm)
+> Papyrus Background from the Post's Cover photo is from <a href="https://www.freepik.com/free-photo/grunge-background_4258615.htm" target="_blank">Freepik</a>
 
 ---
