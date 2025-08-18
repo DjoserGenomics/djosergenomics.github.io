@@ -30,7 +30,7 @@ Let’s begin the analysis.
 
 ---
 
-## 📚 <a id="what-is-differential-expression-analysis-dea">What is Differential Expression Analysis (DEA)?</a>
+## <a id="what-is-differential-expression-analysis-dea">What is Differential Expression Analysis (DEA)?</a>
 
 **Differential Expression Analysis (DEA)** is the process of identifying genes whose expression levels change significantly between different experimental conditions or sample groups.
 
@@ -51,7 +51,9 @@ DEA is a crucial step in RNA sequencing (RNA-seq) and transcriptomics studies, a
 
 Without DEA, RNA-seq data is just a massive table of numbers. DEA brings interpretation and actionable meaning.
 
-## 🧪 <a id="differential-expression-analysis-dea-expectations">Differential Expression Analysis (DEA) Expectations</a>
+---
+
+## <a id="differential-expression-analysis-dea-expectations">Differential Expression Analysis (DEA) Expectations</a>
 
 When running DEA, expect to see:
 
@@ -72,7 +74,7 @@ These findings can be later used to produce some graphs (Which will be covered i
 
 ---
 
-## 🧹 <a id="data-cleaning-before-using-txi">Data Cleaning Before Using `txi`</a>
+## <a id="data-cleaning-before-using-txi">Data Cleaning Before Using `txi`</a>
 
 Before proceeding with downstream analysis, it is crucial to clean the data to ensure that only meaningful and interpretable features (genes) are included in the differential expression pipeline. The following steps perform minor but important cleaning operations on our `txi` object.
 
@@ -86,7 +88,7 @@ txi$counts <- txi$counts[!(rownames(txi$counts) == '' | is.na(rownames(txi$count
 ```
 
 - Each row in `txi$counts` represents a gene, and the row names hold the gene identifiers.
-- If a row has an empty string ('') or missing value (`NA`) as its identifier, it cannot be properly matched to functional annotations or interpreted biologically.
+- If a row has an empty string ("") or missing value (`NA`) as its identifier, it cannot be properly matched to functional annotations or interpreted biologically.
 - This step removes those rows to prevent downstream errors and ensure all genes have valid IDs.
 
 ---
@@ -103,17 +105,17 @@ txi$counts <- txi$counts[keepers,]
 - Genes with very low total counts are likely the result of technical noise or extremely low expression, and they usually do not contribute reliable statistical signals in DEA.
 - This step keeps only those genes where the sum of counts across all samples is ≥ 10.
 
-#### Why Remove Low-Count Genes?
+#### Why Remove Low Count Genes?
 
-Filtering low-count genes is standard in RNA-seq preprocessing because:
+Filtering low count genes is standard in RNA-seq preprocessing because:
 
 - **Improved Statistical Power**: Low counts have high variance, reducing sensitivity for detecting differentially expressed genes.
-- **Reduced Multiple Testing**: Filtering uninformative genes lowers the number of tests, decreasing the false discovery rate (FDR).
+- **Reduced Multiple Testing**: Filtering uninformative genes lowers the number of tests, decreasing the **false discovery rate (FDR)**.
 - **Minimized Noise**: Low counts may reflect sequencing errors or background noise, not biological expression.
 
 #### Choosing a Threshold
 
-Low-count gene filtering thresholds depend on:
+Low count gene filtering thresholds depend on:
 
 - **Number of Samples**: More samples allow lower thresholds for reliable results.
 - **Library Depth**: Deeper sequencing improves detection of lowly expressed genes.
@@ -129,7 +131,7 @@ The goal is to remove genes with very low expression while retaining those meani
 
 ---
 
-## 🔍 <a id="preparing-the-study-design-for-deseq2">Preparing the Study Design for DESeq2</a>
+## <a id="preparing-the-study-design-for-deseq2">Preparing the Study Design for DESeq2</a>
 
 Before we can run DEA in DESeq2, we need to make sure the `studyDesign` data frame has sample names as its row names. This is important because DESeq2 uses the row names of the sample metadata to match samples with the count data.
 
@@ -138,11 +140,11 @@ Before we can run DEA in DESeq2, we need to make sure the `studyDesign` data fra
 studyDesign <- studyDesign %>% column_to_rownames("Sample")
 ```
 
-The `column_to_rownames()` function from the tibble package takes the values from the "Sample" column and sets them as the row names of studyDesign.
+The `column_to_rownames()` function from the tibble package takes the values from the "Sample" column and sets them as the row names of `studyDesign`.
 
 ---
 
-## 🧪 <a id="performing-differential-expression-analysis-dea-with-deseq2">Performing Differential Expression Analysis (DEA) with DESeq2</a>
+## <a id="performing-differential-expression-analysis-dea-with-deseq2">Performing Differential Expression Analysis (DEA) with DESeq2</a>
 
 Once we have quantified our RNA-seq data using Kallisto and imported via `tximport`, the next step is to use **DESeq2** to perform the statistical analysis that identifies **differentially expressed genes** (DEGs) between our conditions.
 
@@ -161,7 +163,7 @@ dds <- DESeqDataSetFromTximport(
 ```
 
 - `txi`: The object produced by `tximport()` which contains the summarized counts (gene-level) for each sample.
-- `colData`: A data frame describing your experimental design, in our case, this is `studyDesign`, which contains metadata for each sample such as sample name or condition etc.
+- `colData`: A data frame describing your experimental design, in our case, this is `studyDesign`, which contains metadata for each sample.
 - `design`: A formula describing the experimental design.
 
 `~ Condition` means we are testing whether gene expression changes depend on the "Condition" column in our metadata.
@@ -227,7 +229,7 @@ The output `res` contains many components, we will mainly focus on:
 
 ---
 
-## 🛠️ <a id="setting-cutoffs-for-degs">Setting Cutoffs for DEGs</a>
+## <a id="setting-cutoffs-for-degs">Setting Cutoffs for DEGs</a>
 
 When performing **DEA**, not all genes showing differences between conditions are biologically meaningful. We apply **cutoffs** to filter results and keep only the most relevant genes.
 
@@ -261,11 +263,11 @@ DEGs <- res.df %>%
 Here we make sure that:
 
 - Genes with missing statistical values are excluded.
-- Only significant genes with substantial expression changes are kept for downstream analyses such as enrichment or pathway analysis.
+- Only significant genes with substantial expression changes are kept for downstream analyses such as functional or pathway enrichment analyses.
 
 ---
 
-## ▶️ <a id="interpreting-degs">Interpreting DEGs</a>
+## <a id="interpreting-degs">Interpreting DEGs</a>
 
 Once we run our differential expression analysis, we can view the results simply by typing `DEGs` in the R console.
 
@@ -301,21 +303,23 @@ How to interpret this table:
 
 `A1BG`:
 
-- **`log2FoldChange`** = 1.21 → ~2.3× higher expression in the condition of interest.
+- **`log2FoldChange`** = 1.21 → ~2.3× higher expression in the condition of interest (Cardiac Disease).
 - **`padj`** = 0.0144 → statistically significant.
 
-Biological implication: May be associated with condition-related upregulation.
+Biological implication: May be associated with Cardiac Disease upregulation.
 
 `ABCB11`:
 
-- **`log2FoldChange`** = -6.18 → ~71× lower expression in the condition of interest.
+- **`log2FoldChange`** = -6.18 → ~71× lower expression in the condition of interest (Cardiac Disease).
 - **`padj`** = 1.39e-07 → extremely significant.
 
-Biological implication: Strong candidate for condition-related downregulation.
+Biological implication: Strong candidate for Cardiac Disease downregulation.
 
 ---
 
 **That’s it!** You’ve successfully performed differential expression analysis using DESeq2 and learned how to interpret the results.
+
+If you want to continue, head over to the next scroll: [Ramses' Plots]({{site_baseurl}}/Scroll-6-Ramses-Plots/), where we’ll generate multiple plots and visualizations to help us interpret our findings even more.
 
 Time for a Cultural Spotlight.
 
@@ -339,7 +343,7 @@ Unlike his predecessors, Menkaure’s pyramid was partly clad in granite instead
 
 ---
 
-> Papyrus Background from the Post's Cover photo is from [Freepik](https://www.freepik.com/free-photo/grunge-background_4258615.htm)
+> Papyrus Background from the Post's Cover photo is from <a href="https://www.freepik.com/free-photo/grunge-background_4258615.htm" target="_blank">Freepik</a>
 
 ---
 
