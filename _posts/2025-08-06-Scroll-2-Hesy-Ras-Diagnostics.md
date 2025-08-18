@@ -152,7 +152,6 @@ Here’s what to focus on:
 This section gives a quick summary:
 
 - Total number of sequences
-- File size
 - Sequence length
 - GC content
 
@@ -166,7 +165,7 @@ This is one of the **most important** plots.
 
 It shows the quality scores (Phred scores) across each base position in your reads.
 
-- Good: Median scores stay **above 28–30** across the whole read length.
+- Great: Median scores stay **above 28** across the whole read length.
 - Watch out: If the quality **drops significantly at the end**, where we may consider **trimming**.
 
 ---
@@ -258,6 +257,8 @@ Here you can check multiple parameters for multiple samples at once.
 
 **That’s it!** You’ve now looked under the hood of your raw data and checked that it’s clean and ready for quantification.
 
+If you want to continue, head over to the next scroll: [Khufu's Calculations]({{site_baseurl}}/Scroll-3-Khufus-Calculations/), where we’ll proceed with quantifying gene expression using **Kallisto**.
+
 Let’s now take a cultural breath with our next Spotlight.
 
 ---
@@ -282,6 +283,6 @@ Much like quality control in bioinformatics ensures the fidelity of our data bef
 
 ---
 
-> Papyrus Background from the Post's Cover photo is from [Freepik](https://www.freepik.com/free-photo/grunge-background_4258615.htm)
+> Papyrus Background from the Post's Cover photo is from <a href="https://www.freepik.com/free-photo/grunge-background_4258615.htm" target="_blank">Freepik</a>
 
 ---
