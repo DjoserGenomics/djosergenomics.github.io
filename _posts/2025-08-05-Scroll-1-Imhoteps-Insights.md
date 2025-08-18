@@ -39,10 +39,10 @@ There are multiple public databases that host such data, including:
 
 Each of these databases contains raw sequencing data submitted by researchers worldwide, often linked to published papers.
 
-For this tutorial, we’ll use **ENA**, which offers direct FTP access to FASTQ files, making it ideal for scripting and reproducibility.
+For this tutorial, we’ll use **ENA**.
 
 You can explore ENA at:  
-🔗 [https://www.ebi.ac.uk/ena/browser/home](https://www.ebi.ac.uk/ena/browser/home)
+🔗 <a href="https://www.ebi.ac.uk/ena/browser/home" target="_blank">https://www.ebi.ac.uk/ena/browser/home</a>
 
 To find datasets, try searching with keywords like:
 
@@ -57,9 +57,9 @@ Each project page provides sample descriptions and links to raw `.fastq.gz` file
 
 ## 🧬 <a id="dataset-used-in-this-tutorial">Dataset Used in This Tutorial</a>
 
-We’ll use a publicly available human dataset from [ENA Project PRJNA967653](https://www.ebi.ac.uk/ena/browser/view/PRJNA967653), which examines gene expression changes in human superior cervical ganglia with and without cardiac diseases.
+We’ll use a publicly available human dataset from <a href="https://www.ebi.ac.uk/ena/browser/view/PRJNA967653" target="_blank">ENA Project PRJNA967653</a>, which examines gene expression changes in human superior cervical ganglia with and without cardiac diseases.
 
-We’ll download the following 6 samples _(in step 2)_:
+We’ll be using the following 6 samples:
 
 - SRR24448335 (Cardiac Disease)
 - SRR24448336 (Cardiac Disease)
@@ -68,9 +68,9 @@ We’ll download the following 6 samples _(in step 2)_:
 - SRR24448339 (Healthy)
 - SRR24448340 (Healthy)
 
-In addition to the RNA-seq reads, we’ll download the **reference human transcriptome (cdna)** (FASTA format) from [**Ensembl**](https://www.ensembl.org/index.html) _(in step 2)_.
+In addition to the RNA-seq reads, we’ll use the **reference human transcriptome (cdna)** (FASTA format) from <a href="https://www.ensembl.org/index.html" target="_blank">Ensembl</a> _(no need to download now - we will download it in step 2)_.
 
-- Go to [Ensembl](https://ftp.ensembl.org/pub/release-113/fasta/homo_sapiens/cdna/)
+- Go to <a href="https://www.ensembl.org/index.html" target="_blank">Ensembl</a>
 - Choose the Human Genome
 - From **Gene annotation** Choose **Download FASTA files for genes, cDNAs, ncRNA, proteins**
 - Choose **cdna** folder
@@ -82,7 +82,7 @@ In addition to the RNA-seq reads, we’ll download the **reference human transcr
 
 ## 💾 <a id="downloading-the-data-in-google-colab">Step 2: Downloading the Data in Google Colab</a>
 
-We’ll be running everything inside **[Google Colab](https://colab.research.google.com/)**, a free, cloud-based Jupyter notebook that supports Python and shell commands, making it perfect for bioinformatics tutorials.
+We’ll be running everything inside <a href="https://colab.research.google.com/" target="_blank">Google Colab</a>, a free, cloud-based Jupyter notebook that supports Python and shell commands, making it perfect for bioinformatics tutorials.
 
 Open a new Colab notebook and follow along step by step.
 
@@ -186,6 +186,6 @@ The legacy of **Imhotep**, **Djoser** _(Will show up in a future scroll ;D)_ and
 
 ---
 
-> Papyrus Background from the Post's Cover photo is from [Freepik](https://www.freepik.com/free-photo/grunge-background_4258615.htm)
+> Papyrus Background from the Post's Cover photo is from <a href="https://www.freepik.com/free-photo/grunge-background_4258615.htm" target="_blank">Freepik</a>
 
 ---
