@@ -31,7 +31,7 @@ Let’s begin the alignment.
 
 ---
 
-## 🔹 <a id='what-is-alignment-and-why-do-we-do-it'> What Is Alignment, and Why Do We Do It? </a>
+## <a id='what-is-alignment-and-why-do-we-do-it'> What Is Alignment, and Why Do We Do It? </a>
 
 Before we push forward in our transcriptomics journey, we must first pause, and understand the concept of sequence alignment.
 
@@ -42,7 +42,7 @@ It takes each read and finds the best-matching location in the genome or transcr
 
 ---
 
-## 🛠️ <a id='common-tools-for-alignment'> Common Tools for Alignment </a>
+## <a id='common-tools-for-alignment'> Common Tools for Alignment </a>
 
 These tools use algorithms to search for where reads fit:
 
@@ -56,18 +56,18 @@ That’s where **King Khufu** would raise an eyebrow, and perhaps suggest a more
 
 ---
 
-## 🧭 <a id='what-is-pseudoalignment-and-how-does-it-differ-from-alignment'> What is Pseudoalignment, and How Does It Differ from Alignment? </a>
+## <a id='what-is-pseudoalignment-and-how-does-it-differ-from-alignment'> What is Pseudoalignment, and How Does It Differ from Alignment? </a>
 
 Pseudoalignment skips the base-by-base matching. Instead, it identifies **which transcripts** a read _could have_ originated from, without determining its exact position. It uses **k-mers** (short subsequences of length k) from the reads and compares them to a k-mer index of the transcriptome.
 
-Think of it like asking: “Does this read _belong_ to transcript X, Y, or Z?” rather than: “Where exactly does this read align in the genome?”
+Think of it like asking: "Does this read _belong_ to transcript X, Y, or Z?" rather than: "Where exactly does this read align in the genome?"
 
 The two most widely known pseudoaligners are:
 
 - **Kallisto** – The tool we'll be using in this scroll.
 - **Salmon** – Another fast and flexible pseudoaligner.
 
-## 🚀 <a id='when-is-pseudoalignment-the-better-option'> When is Pseudoalignment the Better Option? </a>
+## <a id='when-is-pseudoalignment-the-better-option'> When is Pseudoalignment the Better Option? </a>
 
 Pseudoalignment is a great choice when:
 
@@ -79,15 +79,15 @@ However, it’s not suitable if you need:
 
 - Precise **read locations** on the genome.
 - Working on **splicing**.
-- Using any other tools that use a BAM alignment files.
+- Using any other tools that use BAM alignment files.
 
 For bulk RNA-seq focused on quantification, **pseudoalignment offers an optimal balance between speed and accuracy**, which is exactly why we’re using Kallisto in this tutorial.
 
-> If you want to learn more about alignment vs pseudoalignment (Kallisto), check out this [Awesome Video from DIY.transcriptomics](https://diytranscriptomics.com/project/lecture-02#part-3---a-discussion-of-traditional-and-alignment-free-pseudoalignment-methods-for-quantifying-gene-expression).
+> If you want to learn more about alignment vs pseudoalignment (Kallisto), check out this <a href="https://diytranscriptomics.com/project/lecture-02#part-3---a-discussion-of-traditional-and-alignment-free-pseudoalignment-methods-for-quantifying-gene-expression" target="_blank">Awesome Video from DIY.transcriptomics</a>.
 
 ---
 
-## ▶️ <a id='installing-kallisto-on-google-colab'> Installing Kallisto on Google Colab </a>
+## <a id='installing-kallisto-on-google-colab'> Installing Kallisto on Google Colab </a>
 
 To run Kallisto in Google Colab, we need to install it manually using Conda.
 
@@ -161,7 +161,7 @@ Now install Kallisto directly from Bioconda:
 !conda install -c bioconda kallisto -y
 ```
 
-The `-y` flag auto-confirms installation prompts.
+The `-y` flag auto confirms installation prompts.
 
 Finally, test that it is successfully installed:
 
@@ -171,21 +171,21 @@ Finally, test that it is successfully installed:
 
 ---
 
-## 🛠️ <a id='reference-transcriptome-indexing-using-kallisto'> Reference Transcriptome Indexing using Kallisto </a>
+## <a id='reference-transcriptome-indexing-using-kallisto'> Reference Transcriptome Indexing using Kallisto </a>
 
 Before we can pseudoalign RNA-seq reads using Kallisto, we need to **create an index** from a reference transcriptome. The index enables Kallisto to rapidly locate the origin of reads.
 
-### 🧠 What is Indexing?
+### What is Indexing?
 
 Indexing is the process of converting a FASTA reference file into a structured, searchable format that the aligner or pseudoaligner can use for quick read assignment.
 
-For Kallisto, the input reference is usually a **cDNA (transcript-level)** FASTA file, not the full genome. This is because Kallisto performs transcript-level quantification.
+For Kallisto, the input reference is usually a **cDNA (transcript level)** FASTA file, not the full genome. This is because Kallisto performs transcript level quantification.
 
 Without indexing, Kallisto would have to scan the entire reference file for every read, this would be very slow and computationally inefficient. The index accelerates the process by using k-mer hashing.
 
 ---
 
-### 🛠️️ Creating the Reference Transcriptome Index
+### Creating the Reference Transcriptome Index
 
 First we will **Unzip** the FASTA file if it's compressed (`.gz`).
 
@@ -210,13 +210,13 @@ print(f"Index created: {index_file}")
 
 ---
 
-## 🚀 <a id='quantifying-expression-with-kallisto'> Quantifying Expression with Kallisto </a>
+## <a id='quantifying-expression-with-kallisto'> Quantifying Expression with Kallisto </a>
 
 Once the reference transcriptome index is prepared, it's time to quantify transcript abundances for each sample using **Kallisto's `quant`** command.
 
 `kallisto quant` takes your indexed reference and your raw FASTQ files and performs **psuedoalignment** to estimate how many transcripts are present in each sample, quickly and efficiently.
 
-### 🗂️ Sample Setup
+### Sample Setup
 
 We define a list of our samples with corresponding FASTQ files:
 
@@ -236,7 +236,7 @@ kallistoData = [['HS01', 'SRR24448340.fastq.gz'],
 
 ---
 
-### ⚙️ Run Kallisto for Each Sample
+### Run Kallisto for Each Sample
 
 Let's Create our main Output folder for Kallisto results:
 
@@ -260,7 +260,7 @@ for data in kallistoData:
 
 ---
 
-### 🧾 Explanation:
+### Explanation:
 
 - `-i {index_file}`: The path to the reference transcriptome index you created earlier.
 - `-o "$folder"`: Output folder for results (TPMs and estimated counts).
@@ -270,9 +270,9 @@ for data in kallistoData:
 
 ---
 
-### ✅ Outcome:
+### Outcome:
 
-Each sample will now produce a folder containing a file named abundance.tsv, which includes:
+Each sample will now produce a folder containing `kallisto quant` output including a file named `abundance.tsv`, which includes:
 
 - Estimated counts
 - TPMs (Transcripts Per Million)
@@ -280,7 +280,7 @@ Each sample will now produce a folder containing a file named abundance.tsv, whi
 
 ---
 
-## 📊 <a id='alignment-rate-check-quality-control'> Alignment Rate Check (Quality Control) </a>
+## <a id='alignment-rate-check-quality-control'> Alignment Rate Check (Quality Control) </a>
 
 Before moving forward, it's essential to check the alignment rate for each sample. It can be found in the `run_info.json` file inside each sample's output directory.
 
@@ -297,6 +297,8 @@ Open the `run_info.json` file and look for the `p_pseudoaligned` field. A **good
 **That’s it!** You can now download the kallisto folder from the left sidebar in Google Colab.
 
 You now have quantification results for all samples, ready to be imported into R for downstream analysis and visualization!
+
+If you want to continue, head over to the next scroll: [Khafre's Connections]({{site_baseurl}}/Scroll-4-Khafres-Connections/), where we’ll import our data into **R**, Fetch our annotations and Create our study Design.
 
 Now time for our next Cultural Spotlight.
 
@@ -320,6 +322,6 @@ Khufu’s pyramid stood as the tallest human-made structure on Earth for over 3,
 
 ---
 
-> Papyrus Background from the Post's Cover photo is from [Freepik](https://www.freepik.com/free-photo/grunge-background_4258615.htm)
+> Papyrus Background from the Post's Cover photo is from <a href="https://www.freepik.com/free-photo/grunge-background_4258615.htm" target="_blank">Freepik</a>
 
 ---
