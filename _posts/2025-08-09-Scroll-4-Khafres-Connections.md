@@ -50,7 +50,6 @@ Before importing our quantification results into R, we need to define our **stud
 We’ll use the **tibble** package to create a clean, readable table structure.
 
 ```r
-#importing libraries
 library(tibble)
 
 # Creating Study Design file
@@ -184,7 +183,7 @@ txi <- tximport(
   paths,                    # Paths to abundance.tsv files
   type = 'kallisto',         # Specify quantification tool
   tx2gene = tx2gene,         # Transcript-to-gene mapping
-  txOut = FALSE,             # Summarize to gene-level counts
+  txOut = FALSE,             # Summarize to gene level counts
   countsFromAbundance = 'lengthScaledTPM', # Adjust counts by transcript length
   ignoreTxVersion = TRUE     # Remove version suffix from transcript IDs
 )

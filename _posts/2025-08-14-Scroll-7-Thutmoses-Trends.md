@@ -64,12 +64,12 @@ library(org.Hs.eg.db)
 
 # GO Enrichment
 ego <- enrichGO(
-  gene = DEGs$gene_name,       # The list of genes for analysis (from our DEGs table)
+  gene = DEGs$gene_name,       # The list of genes names for analysis (from our DEGs table)
   OrgDb = "org.Hs.eg.db",      # The organism database (here: Homo sapiens)
   keyType = "SYMBOL",          # The type of gene identifier we are using (SYMBOL = gene names)
   ont = "ALL",                 # Ontology: "BP", "MF", "CC", or "ALL" for all categories
-  pvalueCutoff = 0.05,         # Maximum p-value to consider a term significant
-  qvalueCutoff = 0.05          # Maximum adjusted p-value (FDR) to consider significant
+  pvalueCutoff = 0.05,         # p-value cutoff
+  qvalueCutoff = 0.05          # Adjusted p-value (FDR)
 )
 ```
 
@@ -159,9 +159,9 @@ Then we will perform our KEGG Enrichment Analysis using `enrichKEGG()` and then 
 ```r
 ekg <- enrichKEGG(
     gene = gene.map$ENTREZID,   # The list of genes in Entrez ID format
-    organism = "hsa",           # 'hsa' specifies Homo sapiens (use 'mmu' for mouse, etc.)
-    pvalueCutoff = 0.05,        # Only pathways with raw p-values < 0.05 are considered
-    qvalueCutoff = 0.05         # Only pathways with adjusted p-values (FDR) < 0.05 are considered
+    organism = "hsa",           # 'hsa' specifies Homo sapiens
+    pvalueCutoff = 0.05,        # p-value cutoff
+    qvalueCutoff = 0.05         # adjusted p-value (FDR)
 )
 
 # Convert the results to a tidy tibble
@@ -177,7 +177,7 @@ ekg.df <- as_tibble(ekg, rownames = 'hsa') %>%
 We can Plot the KEGG results on a dot plot in the same way as GO results.
 
 ```r
-# Dotplot - top 10 pathways
+# Dotplot - top 5 pathways
 dotplot(ekg, showCategory = 5, title = "Top 5 KEGG Pathways")
 ```
 
