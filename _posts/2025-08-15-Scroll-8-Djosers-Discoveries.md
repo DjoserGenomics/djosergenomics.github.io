@@ -45,7 +45,7 @@ Instead of focusing only on **individual differentially expressed genes (DEGs)**
 - **Captures coordinated changes:** Biology often acts through groups of genes rather than isolated ones. GSEA detects patterns that single gene analysis might miss.
 - **Reduces bias from arbitrary cutoffs:** Many genes with moderate but consistent expression changes can be biologically meaningful. GSEA includes them by looking at ranked gene lists instead of hard DEG thresholds.
 - **Provides biological context:** By linking gene expression changes to known pathways, molecular functions, or biological processes, GSEA helps researchers interpret the data in terms of real biological mechanisms.
-- **Enhances reproducibility:** Pathway-level signals tend to be more consistent across experiments than individual genes, making GSEA findings more robust.
+- **Enhances reproducibility:** Pathway level signals tend to be more consistent across experiments than individual genes, making GSEA findings more robust.
 
 ---
 
@@ -58,7 +58,7 @@ Instead of focusing only on **individual differentially expressed genes (DEGs)**
 
 ---
 
-### 🔹 Step 1 — Prepare a ranked gene list
+### 🔹 Step 1: Prepare a ranked gene list
 
 GSEA works by evaluating whether members of a predefined gene set tend to occur toward the top or bottom of a ranked list, rather than being randomly distributed. This ranking is essential because it defines the order in which GSEA “walks” through the genes, calculating an enrichment score based on the cumulative presence of the set members.
 
@@ -84,9 +84,11 @@ ranks <- ranks[!is.na(ranks)] %>% sort(decreasing = TRUE)
 - `names(ranks)` <- res.df$gene_name: assigns gene symbols as names; `fgsea` expects a named numeric vector.
 - Remove NAs and sort decreasing: required by `fgsea` (largest positive changes first).
 
-### 🔹 Step 2 — Fetch MSigDB C2 KEGG gene sets
+### 🔹 Step 2: Fetch MSigDB C2 KEGG gene sets
 
 ```r
+library(msigdbr)
+
 # Step 2: Fetch MSigDB C2 KEGG gene sets
 hs_gsea_c2 <- msigdbr(
   species      = "Homo sapiens",
@@ -99,9 +101,7 @@ pathways <- split(hs_gsea_c2$gene_symbol, hs_gsea_c2$gs_name)
 ```
 
 - `msigdbr(...)`: pulls curated gene sets from `MSigDB` for human.
-
-- `collection = "C2"`: curated gene sets (literature/pathway-based).
-
+- `collection = "C2"`: curated gene sets (literature/pathway based).
 - `subcollection = "KEGG_LEGACY"`: KEGG-based sets mirrored in `MSigDB` (the “legacy” subset).
 
 > We keep only `gs_name` (set name) and `gene_symbol` (members).
@@ -110,7 +110,7 @@ pathways <- split(hs_gsea_c2$gene_symbol, hs_gsea_c2$gs_name)
 
 > There are other alternative gene sets that can be used as well like `Hallmark sets` and `REACTOME`.
 
-### 🔹 Step 3 — Setting a Seed
+### 🔹 Step 3: Setting a Seed
 
 GSEA involves permutations (either of phenotypes or gene labels) to calculate enrichment significance.
 These permutations are inherently random, meaning that if you run GSEA multiple times without fixing a seed, the exact p-values and enrichment scores can vary slightly. Setting a seed (e.g., set.seed(123) in R) locks the random number generator to a fixed state, ensuring reproducible results.
@@ -118,9 +118,7 @@ These permutations are inherently random, meaning that if you run GSEA multiple 
 This is crucial for:
 
 - Scientific reproducibility (so others can get the same results from your code).
-
 - Debugging and comparisons between different ranking or filtering strategies.
-
 - Avoiding confusion if results shift slightly between runs.
 
 ```r
@@ -128,13 +126,15 @@ This is crucial for:
 set.seed(123)
 ```
 
-### 🔹 Step 4 — Run GSEA with `fgsea`
+### 🔹 Step 4: Run GSEA with `fgsea`
 
 ```r
+library(fgsea)
+
 # Step 4: Run GSEA with fgsea
 fgsea.res <- fgsea(
-  pathways = pathways,  # list: pathway_name -> vector of gene symbols
-  stats    = ranks,     # named numeric vector of ranks (gene symbols as names)
+  pathways = pathways,  # gene symbols of our fetched MSigDB C2 KEGG gene sets
+  stats    = ranks,     # our ranked genes
   minSize  = 15,        # ignore tiny gene sets (reduces false positives)
   maxSize  = 500,       # ignore very large sets (too generic)
   nperm    = 10000      # number of permutations; higher = more stable p-values
@@ -198,7 +198,7 @@ plotEnrichment(pathway = pathways[[top_pathway]],
 ```
 
 <div style="text-align: center;">
-  <img src="/assets/images/posts/Scroll-8-Djosers-Discoveries/GSEA_Enrichment_Plot.png" alt="GSEA Enrichment Plot" width="400"/>
+  <img src="/assets/images/posts/Scroll-8-Djosers-Discoveries/GSEA_Enrichment_Plot.png" alt="GSEA Enrichment Plot" width="700"/>
   <p style="font-size: 0.8em; color: gray;">GSEA Enrichment Plot - KEGG_ALLOGRAFT_REJECTION</p>
 </div>
 
@@ -241,14 +241,14 @@ With this scroll, we close the gates on our journey, a complete bulk RNAseq anal
 
 From the silent sands of **Saqqara** with **Djoser**, **Imhotep** and **Hesy-Ra**, to the towering reigns of **Khufu**, **Khafre**, and **Menkaure**, and the Glories of **Ramses II** and **Thutmose III**, we have walked together inspired by those ancient figures to uncover the codex scrolls of bulk RNAseq.
 
-You now hold the knowledge to process **raw RNAseq data**, **align reads**, **quantify expression**, find **differentially expressed genes**, and interpret them through **biological pathways**. Much like we approached **GO** and **KEGG**, **GSEA** adds another lens to see the story our genes are telling.
+You now hold the knowledge to process **raw RNAseq data**, **align reads**, **quantify expression**, find **differentially expressed genes**, and interpret them through **biological pathways**. Much like we approached **GO** and **KEGG**; **GSEA** adds another lens to see the story our genes are telling.
 
 May these scrolls serve not just as instructions, but as companions in your own quests for discovery.
 
-And as for what lies beyond these sands... 𓂀 well, some scrolls remain buried, waiting for the one who dares to uncover them 📜.
+And as for what lies beyond these sands... 𓂀𓆣 well, some scrolls remain buried, waiting for the one who dares to uncover them 📜.
 
 ---
 
-> Papyrus Background from the Post's Cover photo is from [Freepik](https://www.freepik.com/free-photo/grunge-background_4258615.htm)
+> Papyrus Background from the Post's Cover photo is from <a href="https://www.freepik.com/free-photo/grunge-background_4258615.htm" target="_blank">Freepik</a>
 
 ---
