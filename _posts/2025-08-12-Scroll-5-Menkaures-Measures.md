@@ -5,7 +5,7 @@ author: Nourelden
 categories: [Tutorials, RNAseq]
 tags: ["Bulk RNAseq Tutorial Codex", "History", "Djoser Genomics", "2025"]
 image: "assets/images/posts/Scroll-5-Menkaures-Measures/Scroll 5 Menkaures Measures.jpg"
-featured: true
+featured: false
 hidden: false
 ---
 

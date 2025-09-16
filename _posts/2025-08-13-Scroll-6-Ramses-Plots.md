@@ -5,7 +5,7 @@ author: Nourelden
 categories: [Tutorials, RNAseq]
 tags: ["Bulk RNAseq Tutorial Codex", "History", "Djoser Genomics", "2025"]
 image: "assets/images/posts/Scroll-6-Ramses-Plots/Scroll 6 Ramses Plots.jpg"
-featured: true
+featured: false
 hidden: false
 ---
 

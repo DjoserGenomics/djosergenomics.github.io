@@ -5,7 +5,7 @@ author: Nourelden
 categories: [Tutorials, RNAseq]
 tags: ["Bulk RNAseq Tutorial Codex", "History", "Djoser Genomics", "2025"]
 image: "assets/images/posts/Scroll-3-Khufus-Calculations/Scroll 3 Khufus Calculations.jpg"
-featured: true
+featured: false
 hidden: false
 ---
 
