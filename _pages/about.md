@@ -9,7 +9,7 @@ permalink: /about
 
 <p>
 
-Welcome to Djoser Genomics!
+Welcome to Djoser Genomics! 🧬
 
 </p>
 
@@ -17,18 +17,18 @@ Welcome to Djoser Genomics!
 
 <p>
 
-Inspired by the Step Pyramid of Djoser, this platform reflects a step-by-step approach to mastering Computational Biology and Bioinformatics.
+Inspired by the Step Pyramid of Djoser, this platform reflects a step-by-step approach to mastering computational biology and bioinformatics.
 
 </p>
 <p>
 
-Here, I document my journey, share insights from my projects, Write Useful Guides to help beginners, and explore the fascinating intersection of biology and data.
+Here, I document my journey, share insights from my projects and you’ll also find documented projects, practical guides, and reproducible analyses, created to support learners and researchers navigating the intersection of biology and data.
 
 </p>
 
 <p>
 
-Want to know more about us? Check out <a href="{{site.baseurl}}/Djoser-Genomics-Story">Djoser Genomics Story</a>
+Want to know more? Explore the story behind <a href="{{site.baseurl}}/Djoser-Genomics-Story">Djoser Genomics</a>
 
 </p>
 
