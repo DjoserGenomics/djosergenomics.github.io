@@ -6,7 +6,7 @@ categories: [FieldNotes, Dispatch]
 tags: ["Djoser Genomics", "FieldNotes", "Dispatch"]
 image: "assets/images/Djoser Genomics Field Notes Landscape.png"
 featured: false
-hidden: true
+hidden: false
 ---
 
 Hey everyone 👋
