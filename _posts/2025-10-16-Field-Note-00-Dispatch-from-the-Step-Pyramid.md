@@ -4,7 +4,7 @@ title: "Field Note 00: Dispatch from the Step Pyramid"
 author: Nourelden
 categories: [FieldNotes, Dispatch]
 tags: ["Djoser Genomics", "FieldNotes", "Dispatch"]
-image: "assets/images/posts/Djoser-Genomics-Year-One/Djoser Genomics Year One.png"
+image: "assets/images/Djoser Genomics Field Notes Landscape.png"
 featured: false
 hidden: true
 ---
