@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Field Note 01: Dispatch Learning Synthetic Biology"
+title: "Field Note 01: Dispatch - Learning Synthetic Biology"
 author: Nourelden
 categories: [FieldNotes, Dispatch]
 tags: ["Djoser Genomics", "FieldNotes", "Dispatch"]

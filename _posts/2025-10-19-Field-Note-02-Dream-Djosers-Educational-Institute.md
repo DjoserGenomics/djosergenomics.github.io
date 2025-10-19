@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Field Note 02: Dream Djoser's Educational Institute"
+title: "Field Note 02: Dream - Djoser's Educational Institute"
 author: Nourelden
 categories: [FieldNotes, Dream]
 tags: ["Djoser Genomics", "FieldNotes", "Dream"]
