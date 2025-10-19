@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Field Note 02: Journal - How Are Field Notes Structured?"
+title: "Field Note 03: Journal - How Are Field Notes Structured?"
 author: Nourelden
 categories: [FieldNotes, Journal]
 tags: ["Djoser Genomics", "FieldNotes", "Journal"]
