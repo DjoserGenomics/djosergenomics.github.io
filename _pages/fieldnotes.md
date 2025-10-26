@@ -23,3 +23,4 @@ permalink: /fieldnotes/
 {% endif %}
 {% endfor %}
 {% endif %}
+{% endfor %}
