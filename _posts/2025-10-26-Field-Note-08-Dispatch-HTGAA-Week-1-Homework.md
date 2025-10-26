@@ -121,6 +121,8 @@ This broad goal can be broken down into specific subgoals:
 | Support R&D                                        | 3                  | 1                     | 2                       |
 | Support Innovative Solutions                       | 2                  | 1                     | 3                       |
 
+<br/>
+
 **Last, drawing upon this scoring, describe which governance option, or combination of options, you would prioritize, and why. Outline any trade-offs you considered as well as assumptions and uncertainties.**
 
 Based on the scoring, I would prioritize the implementation of the **"Bio-Dye Safety & Containment Act"** combined with **Market Incentives** for Sustainable Practices. These two actions complement each other, focusing on both safety and environmental concerns while also promoting the adoption of sustainable practices. The **Kill Switch Mandate** remains important but may prove as an initial barrier to entry for smaller companies, which is an issue the **Market Incentives** can help mitigate if properly designed.
