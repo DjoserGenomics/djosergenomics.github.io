@@ -2,7 +2,7 @@
 layout: post
 title: "Field Note 05: Journal - The Gate for Aspiring Researchers Event 2025"
 author: Nourelden
-categories: [FieldNotes, Journal]
+categories: [FieldNotes]
 tags: ["Djoser Genomics", "FieldNotes", "Journal"]
 image: "assets/images/Djoser Genomics Field Notes Landscape.png"
 featured: false

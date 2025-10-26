@@ -2,8 +2,8 @@
 layout: post
 title: "Field Note 03: Journal - How Are Field Notes Structured?"
 author: Nourelden
-categories: [FieldNotes, Journal]
-tags: ["Djoser Genomics", "FieldNotes", "Journal"]
+categories: [FieldNotes]
+tags: ["Djoser Genomics", "FieldNotes", "Journal]
 image: "assets/images/Djoser Genomics Field Notes Landscape.png"
 featured: false
 hidden: true

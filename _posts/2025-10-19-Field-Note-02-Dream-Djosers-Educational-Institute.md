@@ -2,7 +2,7 @@
 layout: post
 title: "Field Note 02: Dream - Djoser's Educational Institute"
 author: Nourelden
-categories: [FieldNotes, Dream]
+categories: [FieldNotes]
 tags: ["Djoser Genomics", "FieldNotes", "Dream"]
 image: "assets/images/Djoser Genomics Field Notes Landscape.png"
 featured: false

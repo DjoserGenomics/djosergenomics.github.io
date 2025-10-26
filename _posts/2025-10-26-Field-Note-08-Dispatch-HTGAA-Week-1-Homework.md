@@ -2,7 +2,7 @@
 layout: post
 title: "Field Note 08: Dispatch - HTGAA Week 1 Homework"
 author: Nourelden
-categories: [FieldNotes, Dispatch]
+categories: [FieldNotes, HTGAA]
 tags: ["Djoser Genomics", "FieldNotes", "Dispatch"]
 image: "assets/images/Djoser Genomics Field Notes Landscape.png"
 featured: false

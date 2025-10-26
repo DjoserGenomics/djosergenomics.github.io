@@ -2,7 +2,7 @@
 layout: post
 title: "Field Note 00: Dispatch from the Step Pyramid"
 author: Nourelden
-categories: [FieldNotes, Dispatch]
+categories: [FieldNotes]
 tags: ["Djoser Genomics", "FieldNotes", "Dispatch"]
 image: "assets/images/Djoser Genomics Field Notes Landscape.png"
 featured: false
