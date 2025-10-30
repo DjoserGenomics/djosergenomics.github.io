@@ -111,4 +111,4 @@ for the preparation, I first would need to choose the cas9 variant that best sui
 
 ##### **3. What are the limitations of your editing methods (if any) in terms of efficiency or precision?**
 
-One of the limitations of CRISPR-Cas9 is off-targets and their effects, which is the cas9 making cuts at unintended or unexpected locations in the genome, which can range from no effect to harmful and sometimes lethal effects. Also, the HDR pathway is not very efficient in many cell types, lowering success rates compared to the more error-prone Non-Homologous End Joining (NHEJ) repair pathway.
+One of the limitations of CRISPR-Cas9 is off-targets and their effects, which is the cas9 making cuts at unintended or unexpected locations in the genome, which can range from no effect to harmful and sometimes lethal effects. Also, the HDR pathway is not very efficient in many cell types, lowering success rates compared to the more error prone Non-Homologous End Joining (NHEJ) repair pathway.
