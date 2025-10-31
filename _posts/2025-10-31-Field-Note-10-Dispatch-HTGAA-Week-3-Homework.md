@@ -17,7 +17,7 @@ I would use the Opentrons to automate this high-throughput screening. I would wr
 
 ## **Find and describe a published paper that utilizes the Opentrons or similar automation tools to achieve novel biological applications (eg automated PACE)**
 
-**Paper:** Development of a Modular Lab Automation System with Applications to Animal and Bacteria Cell Culture (Hartman, T.W, MS thesis. University of South Dakota, 2024)
+**Paper:** [Development of a Modular Lab Automation System with Applications to Animal and Bacteria Cell Culture (Hartman, T.W, MS thesis. University of South Dakota, 2024)](https://www.proquest.com/openview/718cddcf553d6c61c2df1434ecd1152a/1?pq-origsite=gscholar&cbl=18750&diss=y)
 
 **Description:** This paper is a perfect example of why automation is critical for modern synthetic biology. The author identifies the key challenges of manual lab work: complex protocols are tedious, prone to human error, and suffers from a lack of reproducibility. and To solve this, the team developed a modular lab automation system. They validated their system through automating one of the most common and error-prone tasks in all of biology: cell culture, for both simple bacteria (prokaryotic) and complex animal cells (eukaryotic).
 
