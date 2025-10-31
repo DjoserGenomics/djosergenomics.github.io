@@ -9,13 +9,13 @@ featured: false
 hidden: true
 ---
 
-## **Write a description about what you intend to do with automation tools for your final project. You may include example pseudocode or Python scripts, procedures you may need to automate, 3D printed holders you may need, and more.**
+### **Write a description about what you intend to do with automation tools for your final project. You may include example pseudocode or Python scripts, procedures you may need to automate, 3D printed holders you may need, and more.**
 
 My project is to create a "Bacterial Color Factory" using E. coli strain with multiple dye pathways. The biggest bottleneck will be the "Test" phase, since I will need to test many different versions of my engineered bacteria against a wide variety of conditions (e.g., different sugar levels, different temperatures). Doing this by hand in 96-well plates is time consuming and very susceptible to human error.
 
 I would use the Opentrons to automate this high-throughput screening. I would write a Python protocol to perfectly and quickly prepare a 96-well test plate. The robot would be responsible for mixing every combination of (bacterial strain + chemical inducer + growth media) for me.
 
-## **Find and describe a published paper that utilizes the Opentrons or similar automation tools to achieve novel biological applications (eg automated PACE)**
+### **Find and describe a published paper that utilizes the Opentrons or similar automation tools to achieve novel biological applications (eg automated PACE)**
 
 **Paper:** [Development of a Modular Lab Automation System with Applications to Animal and Bacteria Cell Culture (Hartman, T.W, MS thesis. University of South Dakota, 2024)](https://www.proquest.com/openview/718cddcf553d6c61c2df1434ecd1152a/1?pq-origsite=gscholar&cbl=18750&diss=y)
 
