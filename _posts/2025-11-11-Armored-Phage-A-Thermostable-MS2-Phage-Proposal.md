@@ -29,10 +29,20 @@ Our pipeline is 100% computational and leverages state-of-the-art protein design
    - Identify key structural features and regions that contribute to thermal stability.
    - Map out potential weakness sites that a mutation or an edit could enhance its thermal stability.
 
+<div style="text-align: center;">
+  <img src="/assets/images/posts/Armored-Phage-A-Thermostable-MS2-Phage-Proposal/MS2 Full Capsid.PNG" alt="MS2 Full Capsid" width="600"/>
+  <p style="font-size: 0.8em; color: gray;">PyMOL Visualization showing the full icosahedral 'shell' of the MS2 bacteriophage (PDB: 2MS2).</p>
+</div>
+
 2. Use **AlphaFold** to Identify targets in the structure of a single Capsid Protein Monomer:
 
    - The Target is to identify flexible regions or loops that are prone to thermal denaturation.
    - Usually these regions can be highlighted by low confidence scores in AlphaFold predictions.
+
+<div style="text-align: center;">
+  <img src="/assets/images/posts/Armored-Phage-A-Thermostable-MS2-Phage-Proposal/MS2 Capsid Monomer.PNG" alt="MS2 Capsid Monomer" width="600"/>
+  <p style="font-size: 0.8em; color: gray;">PyMOL Visualization showing a single 'monomer' or 'building block' of the MS2 capsid protein. (Yellow is Beta Sheets, Red is Alpha helices, Green is in between loops)</p>
+</div>
 
 3. Use **ProteinMPNN** to try and design mutations in the Capsid Protein:
 
