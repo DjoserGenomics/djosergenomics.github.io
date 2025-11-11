@@ -17,7 +17,7 @@ A Proposal to Engineer a Thermostable MS2 Bacteriophage Using Protein Design Tec
 
 ## **Project Goal**
 
-The Goal of this project is to engineer a thermostable variant of the MS2 bacteriophage through reengineering its **Capsid protein** to be more resistant to high temperatures. This will create a robust phage, which is critical for applications like phage therapy.
+The Goal of this project is to engineer a thermostable variant of the MS2 bacteriophage **Capsid Protein** through reengineering the **Capsid Protein** to be more resistant to high temperatures. This will help create a robust phage, which is critical for applications like phage therapy.
 
 ### **Our Proposed Pipeline and Tools**
 
@@ -31,7 +31,7 @@ Our pipeline is 100% computational and leverages state-of-the-art protein design
 
 2. Use **AlphaFold** to Predict the structure of a single Capsid Protein Monomer:
 
-   - The Target is to identify flexible regions or loops that break easily at high temperatures.
+   - The Target is to identify flexible regions or loops that are prone to thermal denaturation.
    - Usually these regions can be highlighted by low confidence scores in AlphaFold predictions.
 
 3. Use **ProteinMPNN** to try and design mutations in the Capsid Protein:
@@ -54,7 +54,7 @@ Our pipeline is 100% computational and leverages state-of-the-art protein design
 
 ### **Potential Pitfalls**
 
-1. **Function Loss**: By making the capsid protein more rigid and heat stable, we may unintentionally disrupt its ability to assemble into a functional phage capsid or interfere with its ability to infect host bacteria.
+1. **Function Loss**: By making the capsid protein more rigid and heat stable, we may unintentionally interfere with its ability to infect host bacteria or dirupt its assembly into a functional phage capsid especially that it has a quaternary structure or .
 
 2. **Prediction Erros**: Our entire pipeline relies on computational predictions, which may not always accurately reflect real behaviour. Experimental validation would be necessary to confirm the effectiveness of the designed mutations.
 
