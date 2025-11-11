@@ -2,7 +2,7 @@
 title: "Scroll 5: Menkaure's Measures"
 layout: post
 author: Nourelden
-categories: [Tutorials, RNAseq]
+categories: [Tutorials, Transcriptomics]
 tags: ["Bulk RNAseq Tutorial Codex", "History", "Djoser Genomics", "2025"]
 image: "assets/images/posts/Scroll-5-Menkaures-Measures/Scroll 5 Menkaures Measures.jpg"
 featured: false

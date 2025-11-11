@@ -2,7 +2,7 @@
 layout: post
 title: "When Heart Disease Meets the Nervous System: Uncovering Immune Signatures in the Superior Cervical Ganglion"
 author: Nourelden
-categories: [RNAseq, Human, Projects]
+categories: [Transcriptomics, Projects]
 tags:
   [
     "RNAseq",
@@ -11,6 +11,7 @@ tags:
     "Cardiac Disease",
     "Djoser Genomics",
     "Publication",
+    "Human",
     "2025",
   ]
 image: "assets/images/Djoser Genomics Landscape.png"

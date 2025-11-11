@@ -2,7 +2,7 @@
 title: "Scroll 7: Thutmose's Trends"
 layout: post
 author: Nourelden
-categories: [Tutorials, RNAseq]
+categories: [Tutorials, Transcriptomics]
 tags: ["Bulk RNAseq Tutorial Codex", "History", "Djoser Genomics", "2025"]
 image: "assets/images/posts/Scroll-7-Thutmoses-Trends/Scroll 7 Thutmoses Trends.jpg"
 featured: false

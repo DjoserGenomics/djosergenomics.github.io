@@ -2,7 +2,7 @@
 title: "Scroll 4: Khafre's Connections"
 layout: post
 author: Nourelden
-categories: [Tutorials, RNAseq]
+categories: [Tutorials, Transcriptomics]
 tags: ["Bulk RNAseq Tutorial Codex", "History", "Djoser Genomics", "2025"]
 image: "assets/images/posts/Scroll-4-Khafres-Connections/Scroll 4 Khafres Connections.jpg"
 featured: false

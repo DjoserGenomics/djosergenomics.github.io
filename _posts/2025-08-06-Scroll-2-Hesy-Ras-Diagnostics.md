@@ -2,7 +2,7 @@
 title: "Scroll 2: Hesy-Ra's Diagnostics"
 layout: post
 author: Nourelden
-categories: [Tutorials, RNAseq]
+categories: [Tutorials, Transcriptomics]
 tags: ["Bulk RNAseq Tutorial Codex", "History", "Djoser Genomics", "2025"]
 image: "assets/images/posts/Scroll-2-Hesy-Ras-Diagnostics/Scroll 2 Hesy Ras Diagnostics.jpg"
 featured: false

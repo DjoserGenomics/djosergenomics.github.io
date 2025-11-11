@@ -2,7 +2,7 @@
 title: "Djoser's Bulk RNAseq Tutorial Codex"
 layout: post
 author: Nourelden
-categories: [Tutorials, RNAseq]
+categories: [Tutorials, Transcriptomics]
 tags:
   [
     "Bulk RNAseq Tutorial Codex",

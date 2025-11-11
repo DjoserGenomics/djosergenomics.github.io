@@ -2,7 +2,7 @@
 title: "Scroll 6: Ramses' Plots"
 layout: post
 author: Nourelden
-categories: [Tutorials, RNAseq]
+categories: [Tutorials, Transcriptomics]
 tags: ["Bulk RNAseq Tutorial Codex", "History", "Djoser Genomics", "2025"]
 image: "assets/images/posts/Scroll-6-Ramses-Plots/Scroll 6 Ramses Plots.jpg"
 featured: false

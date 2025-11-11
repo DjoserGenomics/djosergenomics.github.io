@@ -2,7 +2,7 @@
 title: "Scroll 8: Djoser's Discoveries"
 layout: post
 author: Nourelden
-categories: [Tutorials, RNAseq]
+categories: [Tutorials, Transcriptomics]
 tags: ["Bulk RNAseq Tutorial Codex", "History", "Djoser Genomics", "2025"]
 image: "assets/images/posts/Scroll-8-Djosers-Discoveries/Scroll 8 Djosers Discoveries.jpg"
 featured: false

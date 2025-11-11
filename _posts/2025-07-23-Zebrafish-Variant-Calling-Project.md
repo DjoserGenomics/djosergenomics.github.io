@@ -2,8 +2,8 @@
 layout: post
 title: "Discovering Mutations in fisheries-induced Selection of Zebrafish"
 author: Nourelden
-categories: [Variant Calling, Zebrafish, Projects]
-tags: ["Mutations", "Marine Biology", "Djoser Genomics", "2025"]
+categories: [Variant Calling, Projects]
+tags: ["Mutations", "Zebrafish", "Marine Biology", "Djoser Genomics", "2025"]
 image: "assets/images/posts/Zebrafish-Variant-Calling/Zebrafish.jpg"
 featured: true
 hidden: false

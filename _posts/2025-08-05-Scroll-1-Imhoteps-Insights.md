@@ -2,7 +2,7 @@
 title: "Scroll 1: Imhotep's Insights"
 layout: post
 author: Nourelden
-categories: [Tutorials, RNAseq]
+categories: [Tutorials, Transcriptomics]
 tags: ["Bulk RNAseq Tutorial Codex", "History", "Djoser Genomics", "2025"]
 image: "assets/images/posts/Scroll-1-Imhoteps-Insights/Scroll 1 Imhoteps Insights.jpg"
 featured: false
