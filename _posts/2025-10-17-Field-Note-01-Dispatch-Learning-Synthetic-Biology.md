@@ -6,7 +6,7 @@ categories: [FieldNotes]
 tags: ["Djoser Genomics", "FieldNotes", "Dispatch", "2025"]
 image: "assets/images/Djoser Genomics Field Notes Landscape.png"
 featured: false
-hidden: false
+hidden: true
 ---
 
 I decided to take a deep dive into **Synthetic Biology and Bio and Genetic Engineering.**
