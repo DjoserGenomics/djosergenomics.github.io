@@ -3,7 +3,7 @@ layout: post
 title: "Field Note 01: Dispatch - Learning Synthetic Biology"
 author: Nourelden
 categories: [FieldNotes]
-tags: ["Djoser Genomics", "FieldNotes", "Dispatch"]
+tags: ["Djoser Genomics", "FieldNotes", "Dispatch", "2025"]
 image: "assets/images/Djoser Genomics Field Notes Landscape.png"
 featured: false
 hidden: false

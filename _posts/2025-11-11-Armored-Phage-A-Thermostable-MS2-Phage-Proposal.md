@@ -3,7 +3,7 @@ layout: post
 title: "Armored Phage: A Thermostable MS2 Phage Proposal"
 author: Nourelden
 categories: [Projects, Synthetic Biology, Protein Design]
-tags: ["Djoser Genomics", "Projects", "Synthetic Biology", "HTGAA"]
+tags: ["Djoser Genomics", "Projects", "Synthetic Biology", "HTGAA", "2025"]
 image: "assets/images/posts/Armored-Phage-A-Thermostable-MS2-Phage-Proposal/Armored Phage Proposal Landscape.png"
 featured: true
 hidden: false

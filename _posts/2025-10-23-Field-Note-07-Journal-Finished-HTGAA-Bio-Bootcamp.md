@@ -3,7 +3,7 @@ layout: post
 title: "Field Note 07: Journal - Finished HTGAA Bio Bootcamp"
 author: Nourelden
 categories: [FieldNotes]
-tags: ["Djoser Genomics", "FieldNotes", "Journal", "HTGAA"]
+tags: ["Djoser Genomics", "FieldNotes", "Journal", "HTGAA", "2025"]
 image: "assets/images/Djoser Genomics Field Notes Landscape.png"
 featured: false
 hidden: true
