@@ -29,7 +29,7 @@ Our pipeline is 100% computational and leverages state-of-the-art protein design
    - Identify key structural features and regions that contribute to thermal stability.
    - Map out potential weakness sites that a mutation or an edit could enhance its thermal stability.
 
-2. Use **AlphaFold** to Predict the structure of a single Capsid Protein Monomer:
+2. Use **AlphaFold** to Identify targets in the structure of a single Capsid Protein Monomer:
 
    - The Target is to identify flexible regions or loops that are prone to thermal denaturation.
    - Usually these regions can be highlighted by low confidence scores in AlphaFold predictions.
@@ -59,3 +59,10 @@ Our pipeline is 100% computational and leverages state-of-the-art protein design
 2. **Prediction Erros**: Our entire pipeline relies on computational predictions, which may not always accurately reflect real behaviour. Experimental validation would be necessary to confirm the effectiveness of the designed mutations.
 
 3. **Limited Mutation Space**: The capsid protein may have limited sites that can be mutated without disrupting its structure, function, or folding which can limit our design options.
+
+### **Pipeline Schematic**
+
+<div style="text-align: center;">
+  <img src="/assets/images/posts/Armored-Phage-A-Thermostable-MS2-Phage-Proposal/Armored Phage Pipeline Schematic.png" alt="Armored Phage Pipeline Schematic" width="600"/>
+  <p style="font-size: 0.8em; color: gray;">A Schematic Showing a Brief Overview of the Proposed Pipeline</p>
+</div>
