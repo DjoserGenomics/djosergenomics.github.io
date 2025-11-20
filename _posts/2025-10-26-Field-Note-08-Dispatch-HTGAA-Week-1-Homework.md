@@ -127,6 +127,8 @@ This broad goal can be broken down into specific subgoals:
 
 Based on the scoring, I would prioritize the implementation of the **"Bio-Dye Safety & Containment Act"** combined with **Market Incentives** for Sustainable Practices. These two actions complement each other, focusing on both safety and environmental concerns while also promoting the adoption of sustainable practices. The **Kill Switch Mandate** remains important but may prove as an initial barrier to entry for smaller companies, which is an issue the **Market Incentives** can help mitigate if properly designed.
 
+> Check out Other HTGAA Submissions from [Here]({{site_baseurl}}/HTGAA-Assignments/)
+
 <style>
 table:not(.rouge-table), th, td:not(.rouge-gutter, .rouge-code) {
     border: 1px solid black;

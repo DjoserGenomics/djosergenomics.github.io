@@ -31,3 +31,5 @@ In the end, I will leave you with a drawing of the Djoser Genomics Step Pyramid,
   <img src="/assets/images/posts/Field-Note-10-Dispatch-HTGAA-Week-3-Homework/Djoser Genomics Pyramid Logo-Opentrons.png" alt="Djoser Genomics Step Pyramid" width="600"/>
   <p style="font-size: 0.8em; color: gray;">Djoser Genomics Step Pyramid drawn using Opentrons Python API</p>
 </div>
+
+> Check out Other HTGAA Submissions from [Here]({{site_baseurl}}/HTGAA-Assignments/)

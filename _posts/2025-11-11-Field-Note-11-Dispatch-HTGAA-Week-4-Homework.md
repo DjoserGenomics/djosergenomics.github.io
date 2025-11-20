@@ -117,3 +117,5 @@ This is because the **amino acid code** is redundant, just like the DNA codon co
 **Part D. Group Brainstorm on Bacteriophage Engineering**
 
 You can View the _Proposal_ Through [Here]({{site_baseurl}}/Armored-Phage-A-Thermostable-MS2-Phage-Proposal/)
+
+> Check out Other HTGAA Submissions from [Here]({{site_baseurl}}/HTGAA-Assignments/)

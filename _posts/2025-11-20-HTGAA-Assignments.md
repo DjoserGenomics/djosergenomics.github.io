@@ -3,8 +3,8 @@ layout: post
 title: "HTGAA Assignments"
 author: Nourelden
 categories: []
-tags: ["Djoser Genomics", "FieldNotes", "Dispatch", "HTGAA", "2025"]
-image: "assets/images/Djoser Genomics Field Notes Landscape.png"
+tags: ["Djoser Genomics", "HTGAA", "2025"]
+image: "assets/images/posts/HTGAA-Assignments/HTGAA2025.jpg"
 featured: false
 hidden: false
 ---
