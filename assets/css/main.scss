@@ -11,5 +11,33 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"syntax",
-    "starsnonscss"
+    "starsnonscss",
+    "darkmode"
 ;
+
+/* Global Rounded Corners */
+.card, .listfeaturedtag {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Social Links Styling */
+.share a,
+.share a:visited,
+.share a:hover,
+.about-social a,
+.about-social a:visited,
+.about-social a:hover {
+    color: #00d185 !important;
+    fill: #00d185 !important;
+}
+
+.share svg,
+.about-social svg {
+    fill: #00d185 !important;
+}
+
+.about-social i {
+    color: #00d185 !important;
+}
+

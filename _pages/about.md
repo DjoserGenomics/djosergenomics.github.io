@@ -13,7 +13,7 @@ Welcome to Djoser Genomics! 🧬
 
 </p>
 
-<p class="mb-5"><img src="{{site.baseurl}}/assets/images/Djoser Genomics Landscape.png" alt="Djoser Genomics Landscape Logo" /></p>
+<p class="mb-5"><img class="about-img" src="{{site.baseurl}}/assets/images/Djoser Genomics Landscape.png" alt="Djoser Genomics Landscape Logo" /></p>
 
 <p>
 
@@ -39,7 +39,7 @@ Want to know more? Explore the story behind <a href="{{site.baseurl}}/Djoser-Gen
 <div class="sticky-top sticky-top-80">
 <h5>Follow Us</h5>
 
-<ul style="list-style: none; padding-left: 0; display: flex; flex-direction: row;">
+<ul class="about-social" style="list-style: none; padding-left: 0; display: flex; flex-direction: row;">
 <li class="ml-1 mr-1">
     <a
     target="_blank"
@@ -77,7 +77,7 @@ Want to know more? Explore the story behind <a href="{{site.baseurl}}/Djoser-Gen
     target="_blank"
     href="https://www.linkedin.com/company/djoser-genomics/"
     >
-    <i style="font-size: 2rem; color: #000000;" class="fab fa-linkedin-in"></i>
+    <i style="font-size: 2rem;" class="fab fa-linkedin-in"></i>
     </a>
 </li>
 </ul>
