@@ -20,9 +20,9 @@ Here is a list of all of my HTGAA 2025 Assignments:
 | 3    | [Week 3: Lab Automation]({{site_baseurl}}/Field-Note-10-Dispatch-HTGAA-Week-3-Homework/)            |
 | 4    | [Week 4: Protein Design Part I]({{site_baseurl}}/Field-Note-11-Dispatch-HTGAA-Week-4-Homework/)     |
 | 5    | [Week 5: Protein Design Part II]({{site_baseurl}}/Field-Note-12-Dispatch-HTGAA-Week-5-Homework/)    |
-| 6    | To Be Updated                                                                                       |
-| 7    | To Be Updated                                                                                       |
-| 8    | To Be Updated                                                                                       |
+| 6    | [Week 6: Genetic Circuits Part I]({{site_baseurl}}/Field-Note-13-Dispatch-HTGAA-Week-6-Homework/)   |
+| 7    | [Week 7: Genetic Circuits Part II]({{site_baseurl}}/Field-Note-14-Dispatch-HTGAA-Week-7-Homework/)  |
+| 8    | **Break! :D**                                                                                       |
 | 9    | To Be Updated                                                                                       |
 | 10   | To Be Updated                                                                                       |
 | 11   | To Be Updated                                                                                       |
