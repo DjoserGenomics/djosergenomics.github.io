@@ -58,3 +58,5 @@ The Repressilator is a foundational synthetic genetic oscillator constructed in 
 - Noise & Drift: The original circuit was extremely "noisy". While individual cells blinked, they quickly became desynchronized. After a few hours, a population of bacteria would just look like a constant "average" green because every cell was blinking at a different time.
 
 - Metabolic dependence: The oscillation period was heavily dependent on the cell's growth rate and environmental conditions.
+
+> Check out Other HTGAA Submissions from [Here]({{site_baseurl}}/HTGAA-Assignments/)

@@ -70,3 +70,5 @@ Data Gap is one of the major struggles, Extensive data on enzyme kinetics, expre
 
 - Experimental Validation: Once the in-silico designs are finalized, the next step would be to collaborate with a wet lab to physically construct and test the engineered bacterial strains for Lycopene production.
 - Expansion to Other Pigments: Explore the potential for engineering bacteria to produce other commercially valuable pigments beyond Lycopene, such as carotenoids or anthocyanins, to broaden the impact of the project.
+
+> Check out Other HTGAA Submissions from [Here]({{site_baseurl}}/HTGAA-Assignments/)

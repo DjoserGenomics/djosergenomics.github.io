@@ -31,11 +31,11 @@ Restriction enzymes like **PvuII** are proteins that require very specific chemi
 
 This is ensureed during the Design phase by designing specific PCR primers. The primers must be designed to add homologous overlaps (20–40 bp) to the ends of the PCR fragment that perfectly match the ends of the linearized plasmid. That way the Gibson enzymes can successfully chew back and anneal them together.
 
-### **6. How does the plasmid DNA enter the *E. coli* cells during transformation?**
+### **6. How does the plasmid DNA enter the _E. coli_ cells during transformation?**
 
 The DNA enters through a multiple processes including Heat Shock or Electroporation. First, the chemically competent cells (treated with Calcium) allow the negatively charged DNA to stick to the bacterial cell wall. Then, a rapid increase in temperature (usually to 42°C for 45 seconds) creates a thermal imbalance and transient pores in the cell membrane, which effectively sucks the plasmid DNA from the outside into the cytoplasm. Or Electroporation where a high-voltage pulse is used to create temporary pores in the cell membrane, allowing the DNA to enter the cells.
 
-### **7. Describe another assembly method in detail (such as Golden Gate Assembly) 5 - 7 sentences w/ diagrams (either handmade or online). **Model this assembly method with Benchling or a similar tool!**
+### **7. Describe another assembly method in detail (such as Golden Gate Assembly) 5 - 7 sentences w/ diagrams (either handmade or online). **Model this assembly method with Benchling or a similar tool!\*\*
 
 **Golden Gate Assembly** is a powerful, modular cloning method that relies on Type IIS restriction enzymes (such as BsaI or BsmBI), which have the unique ability to cut DNA outside of their specific recognition sequence. This allows us to design custom 4-base pair overhangs on the ends of DNA fragments that act as "barcodes" ensuring that multiple parts (like a promoter, RBS, and gene) assemble in the exact correct order. Because the enzyme cuts the recognition site off the fragment, the digestion and ligation can happen simultaneously in a single "one-pot" reaction. If the parts ligate correctly, the recognition site is lost, making the reaction irreversible and efficient. This results in a completely scarless assembly, making it ideal for building complex, multi-gene circuits.
 
@@ -45,3 +45,5 @@ The DNA enters through a multiple processes including Heat Shock or Electroporat
   <img src="/assets/images/posts/Field-Note-13-Dispatch-HTGAA-Week-6-Homework/Golden Gate Assembly Infographic.jpg" alt="Golden Gate Assembly Infographic" width="600"/>
   <p style="font-size: 0.8em; color: gray;">Golden Gate Assembly Infographic</p>
 </div>
+
+> Check out Other HTGAA Submissions from [Here]({{site_baseurl}}/HTGAA-Assignments/)
