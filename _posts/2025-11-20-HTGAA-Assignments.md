@@ -24,8 +24,8 @@ Here is a list of all of my HTGAA 2025 Assignments:
 | 7    | [Week 7: Genetic Circuits Part II]({{site_baseurl}}/Field-Note-14-Dispatch-HTGAA-Week-7-Homework/)  |
 | 8    | **Break! :D**                                                                                       |
 | 9    | [Week 9: Cell-Free Systems]({{site_baseurl}}/Field-Note-15-Dispatch-HTGAA-Week-9-Homework/)         |
-| 10   | To Be Updated                                                                                       |
-| 11   | To Be Updated                                                                                       |
+| 10   | [Week 10: Bio Production]({{site_baseurl}}/Field-Note-16-Dispatch-HTGAA-Week-10-Homework/)          |
+| 11   | **No Homework Given! :D**                                                                           |
 | 12   | To Be Updated                                                                                       |
 | 13   | To Be Updated                                                                                       |
 | 14   | To Be Updated                                                                                       |
