@@ -26,9 +26,9 @@ Here is a list of all of my HTGAA 2025 Assignments:
 | 9    | [Week 9: Cell-Free Systems]({{site_baseurl}}/Field-Note-15-Dispatch-HTGAA-Week-9-Homework/)         |
 | 10   | [Week 10: Bio Production]({{site_baseurl}}/Field-Note-16-Dispatch-HTGAA-Week-10-Homework/)          |
 | 11   | **No Homework Given! :D**                                                                           |
-| 12   | To Be Updated                                                                                       |
-| 13   | To Be Updated                                                                                       |
-| 14   | To Be Updated                                                                                       |
+| 12   | **Couldn't Access the lecture so will give myself a break! :D**                                     |
+| 13   | **No Homework Given! :D**                                                                           |
+| 14   | **No Homework Given! :D**                                                                           |
 
 <br />
 
