@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Project Menhed Update #1: The Math Won (For Now)"
-description: "A deep dive into synthetic biology and how we are fighting procrastination."
 author: Nourelden
 categories: ["Project Menhed"]
 tags: ["Djoser Genomics", "2026"]
