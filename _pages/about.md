@@ -17,7 +17,7 @@ Welcome to Djoser Genomics! 🧬
 
 <p>
 
-Inspired by the Step Pyramid of Djoser, this platform reflects a documentation of a journey of a step-by-step approach to mastering computational biology and bioinformatics.
+Inspired by the Step Pyramid of Djoser, this platform reflects a documentation of a journey of a step-by-step approach to mastering computational biology, bioinformatics, and Synthetic Biology.
 
 </p>
 <p>
