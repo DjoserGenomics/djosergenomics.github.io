@@ -80,6 +80,15 @@ Want to know more? Explore the story behind <a href="{{site.baseurl}}/Djoser-Gen
     <i style="font-size: 2rem;" class="fab fa-linkedin-in"></i>
     </a>
 </li>
+
+<li class="ml-1 mr-1">
+    <a
+    target="_blank"
+    href="https://github.com/DjoserGenomics"
+    >
+    <i style="font-size: 2rem;" class="fab fa-github"></i>
+    </a>
+</li>
 </ul>
 
 </div>
