@@ -80,3 +80,23 @@ But that is the point. I am simulating the risk now, so that when we eventually 
 The factory is open.
 <br />
 Follow the build log here at **Djoser Genomics**.
+
+---
+
+## Progress Updates
+
+| Part | Title                                                                                                              |
+| ---- | ------------------------------------------------------------------------------------------------------------------ |
+| 1    | [The Math Won For Now]({{site_baseurl}}/Project-Menhed-Update-1-The-Math-Won-For-Now/)                             |
+| 2    | [When The Simulation Is Too Perfect]({{site_baseurl}}/Project-Menhed-Update-2-When-The-Simulation-Is-Too-Perfect/) |
+
+<br />
+
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+</style>

@@ -87,3 +87,5 @@ If not, I’ll adopt a **Two-Stage Fermentation** scenario for now and dive deep
 **Work continues.**
 <br />
 See you in the next log. (Hopefully sooner this time! XD)
+
+> All Updates will be available in the **Progress Updates** section of the [announcement post]({{site_baseurl}}/Introducing-Project-Menhed/)
