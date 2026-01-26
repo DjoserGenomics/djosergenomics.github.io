@@ -201,3 +201,96 @@ body.dark-mode {
     opacity: 0.5;
     margin: 1.5rem 0;
 }
+
+/* Table Styles for Dark Mode */
+.dark-mode table:not(.rouge-table) {
+    color: #e0e0e0;
+}
+
+.dark-mode table:not(.rouge-table), 
+.dark-mode table:not(.rouge-table) th, 
+.dark-mode table:not(.rouge-table) td {
+    border-color: #444 !important;
+}
+
+.dark-mode table:not(.rouge-table) th {
+    background-color: #242424; /* Darker background for headers in dark mode */
+    color: #fff;
+}
+
+/* Code Block Styles for Dark Mode */
+.dark-mode .highlight,
+.dark-mode .highlight pre,
+.dark-mode .highlight code {
+    background-color: #242424 !important;
+    color: #e0e0e0 !important;
+}
+
+/* Syntax Highlighting Overrides for Dark Mode */
+.dark-mode .highlight .c, 
+.dark-mode .highlight .cm, 
+.dark-mode .highlight .c1, 
+.dark-mode .highlight .cs {
+    color: #8b949e !important; /* Grey for comments */
+}
+
+.dark-mode .highlight .k, 
+.dark-mode .highlight .kc, 
+.dark-mode .highlight .kd, 
+.dark-mode .highlight .kp, 
+.dark-mode .highlight .kr, 
+.dark-mode .highlight .kt, 
+.dark-mode .highlight .o, 
+.dark-mode .highlight .ow {
+    color: #ff7b72 !important; /* Red/Pink for keywords and operators */
+}
+
+.dark-mode .highlight .s, 
+.dark-mode .highlight .sb, 
+.dark-mode .highlight .sc, 
+.dark-mode .highlight .sd, 
+.dark-mode .highlight .s2, 
+.dark-mode .highlight .se, 
+.dark-mode .highlight .sh, 
+.dark-mode .highlight .si, 
+.dark-mode .highlight .sx, 
+.dark-mode .highlight .sr, 
+.dark-mode .highlight .s1, 
+.dark-mode .highlight .ss {
+    color: #a5d6ff !important; /* Light Blue for prints/strings */
+}
+
+.dark-mode .highlight .m, 
+.dark-mode .highlight .mf, 
+.dark-mode .highlight .mh, 
+.dark-mode .highlight .mi, 
+.dark-mode .highlight .mo, 
+.dark-mode .highlight .il {
+    color: #79c0ff !important; /* Blue for numbers */
+}
+
+.dark-mode .highlight .na, 
+.dark-mode .highlight .nb, 
+.dark-mode .highlight .nc, 
+.dark-mode .highlight .no, 
+.dark-mode .highlight .ne, 
+.dark-mode .highlight .nf, 
+.dark-mode .highlight .nn, 
+.dark-mode .highlight .nt, 
+.dark-mode .highlight .nv, 
+.dark-mode .highlight .vc, 
+.dark-mode .highlight .vg, 
+.dark-mode .highlight .vi {
+    color: #d2a8ff !important; /* Purple for names/functions/variables */
+}
+
+.dark-mode .highlight .gd {
+    color: #fdaeb7 !important; /* Deleted diff - soft red */
+    background-color: #4c1d1d !important;
+}
+
+.dark-mode .highlight .gi {
+    color: #aff5b4 !important; /* Inserted diff - soft green */
+    background-color: #1a3b1d !important;
+}
+

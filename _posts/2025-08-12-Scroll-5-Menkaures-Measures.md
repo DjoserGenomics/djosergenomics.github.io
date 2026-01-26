@@ -347,12 +347,4 @@ Unlike his predecessors, Menkaure’s pyramid was partly clad in granite instead
 
 ---
 
-<style>
 
-table:not(.rouge-table), th, td:not(.rouge-gutter, .rouge-code) {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 10px;
-    text-align: center;
-}
-</style>

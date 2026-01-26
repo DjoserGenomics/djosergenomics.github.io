@@ -41,3 +41,25 @@
     color: #00d185 !important;
 }
 
+/* Global Table Styles */
+/* Global Table Styles */
+table:not(.rouge-table) {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+table:not(.rouge-table) th,
+table:not(.rouge-table) td {
+    border: 1px solid #dee2e6; /* Bootstrap default border color, closer to black but softer */
+    padding: 0.75rem;
+    vertical-align: top;
+    text-align: center;
+}
+
+table:not(.rouge-table) th {
+    font-weight: bold;
+    background-color: #f8f9fa; /* Light gray background for headers */
+}
+

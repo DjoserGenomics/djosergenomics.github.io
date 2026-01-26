@@ -92,11 +92,4 @@ Follow the build log here at **Djoser Genomics**.
 
 <br />
 
-<style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 10px;
-    text-align: center;
-}
-</style>
+

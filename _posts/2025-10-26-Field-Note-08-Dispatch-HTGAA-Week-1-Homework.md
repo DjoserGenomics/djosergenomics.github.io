@@ -129,11 +129,4 @@ Based on the scoring, I would prioritize the implementation of the **"Bio-Dye Sa
 
 > Check out Other HTGAA Submissions from [Here]({{site_baseurl}}/HTGAA-Assignments/)
 
-<style>
-table:not(.rouge-table), th, td:not(.rouge-gutter, .rouge-code) {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 10px;
-    text-align: center;
-}
-</style>
+

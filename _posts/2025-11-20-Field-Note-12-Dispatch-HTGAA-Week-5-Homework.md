@@ -73,11 +73,4 @@ I selected the following mutations as potential candidates for enhancing the lys
 
 > Check out Other HTGAA Submissions from [Here]({{site_baseurl}}/HTGAA-Assignments/)
 
-<style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 10px;
-    text-align: center;
-}
-</style>
+
