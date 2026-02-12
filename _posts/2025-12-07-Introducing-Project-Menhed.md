@@ -89,6 +89,7 @@ Follow the build log here at **Djoser Genomics**.
 | ---- | ------------------------------------------------------------------------------------------------------------------ |
 | 1    | [The Math Won For Now]({{site_baseurl}}/Project-Menhed-Update-1-The-Math-Won-For-Now/)                             |
 | 2    | [When The Simulation Is Too Perfect]({{site_baseurl}}/Project-Menhed-Update-2-When-The-Simulation-Is-Too-Perfect/) |
+| 3    | []({{site_baseurl}}/Project-Menhed-Update-3/) |
 
 <br />
 
