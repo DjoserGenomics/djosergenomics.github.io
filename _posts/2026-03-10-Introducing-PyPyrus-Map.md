@@ -9,6 +9,8 @@ featured: true
 hidden: false
 ---
 
+> PyPyrus Map: Python + Papyrus. A metabolic map drawn on a digital scroll, with a Menhed in hand. :D
+
 ## PyPyrus Map: Metabolic neighborhood visualization for COBRApy genome-scale models.
 
 PyPyrus Map lets you instantly visualize the full reaction neighborhood of any metabolite in a COBRApy-compatible genome-scale model, including heterologous and non-native pathways and Outputs the graph in a variety of files including publication-quality vector figures (SVG, PDF) suitable for direct journal submission.
